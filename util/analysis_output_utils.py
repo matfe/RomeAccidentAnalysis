@@ -11,22 +11,23 @@ class AnalysisOutputSaver:
 
         :param output_path: directory in cui salvare i risultati delle analisi
         """
-        os.makedirs(output_dir, exist_ok=True)
+        os.makedirs(output_path, exist_ok=True)
         self.output_path = output_path
 
-    def save_plot(self, plt, filename):
+    def save_plot(self, plt, filename: str):
         """
-        Salva un Plot nella directory specificata.
+        Salva un Plot come figura nella directory specificata.
 
         :param plt: matplotlib plot
-        :param filename: nome del Plot da salvare
+        :param filename: nome della figura da salvare
         :return: None
         """
-        file_path = os.path.join(self.output_dir, filename)
-        plt.savefig(file_path)
+        file_path = os.path.join(self.output_path, filename)
+        plt.tight_layout()  #
+        plt.savefig(file_path, format='png')
         plt.close()
 
-    def save_csv(dataframe, filename):
+    def save_csv(self, dataframe, filename: str):
         """
         Salva un DataFrame in formato CSV nella directory specificata.
 
@@ -34,5 +35,5 @@ class AnalysisOutputSaver:
         :param filename: nome del file CSV.
         :return: None
         """
-        file_path = os.path.join(directory_path, file_name)
-        dataframe.to_csv(file_path, mode='overwrite', index=False)
+        file_path = os.path.join(self.output_path, filename)
+        dataframe.to_csv(file_path, index=False)
