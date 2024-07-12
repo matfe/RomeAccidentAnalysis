@@ -13,7 +13,7 @@ class AnalysisOutputSaver:
         """
         os.makedirs(output_path, exist_ok=True)
         self.output_path = output_path
-
+        self.html_css = "<style>body{font-family:sans-serif;margin:20px}table{width:100%;border-collapse:collapse}th,td{padding:8px;border:1px solid #ccc}</style>"
     def save_plot(self, plt, filename: str):
         """
         Salva un Plot come figura nella directory specificata.
@@ -27,13 +27,15 @@ class AnalysisOutputSaver:
         plt.savefig(file_path, format='png')
         plt.close()
 
-    def save_csv(self, dataframe, filename: str):
+    def save_html(self, dataframe, filename: str):
         """
-        Salva un DataFrame in formato CSV nella directory specificata.
+        Salva un DataFrame in formato HTML nella directory specificata.
 
         :param dataframe: DataFrame da salvare.
-        :param filename: nome del file CSV.
+        :param filename: nome del file.
         :return: None
         """
         file_path = os.path.join(self.output_path, filename)
-        dataframe.to_csv(file_path, index=False)
+        html_with_css = self.html_css + dataframe.toPandas().to_html(index=False)
+        with open(file_path + '.html', 'w') as file:
+            file.write(html_with_css)

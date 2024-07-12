@@ -1,0 +1,72 @@
+{
+  "variables": {
+    "quantitative": [
+      "NumFeriti",
+      "NumRiservata",
+      "NumMorti",
+      "NumIllesi"
+
+    ],
+    "boolean": [
+      "Confermato",
+      "Deceduto"
+    ],
+    "qualitative": [
+      "NaturaIncidente",
+      "ParticolaritaStrade",
+      "TipoStrada",
+      "FondoStradale",
+      "Pavimentazione",
+      "Segnaletica",
+      "CondizioneAtmosferica",
+      "Traffico",
+      "Visibilita",
+      "Illuminazione",
+      "TipoVeicolo",
+      "StatoVeicolo",
+      "TipoPersona",
+      "Sesso",
+      "TipoLesione",
+      "CinturaCascoUtilizzato"
+    ],
+    "geographic": [
+      "Longitudine",
+      "Latitudine",
+      "Localizzazione1",
+      "Strada1",
+      "Localizzazione2",
+      "Strada02"
+    ]
+  },
+  "drop": [
+    "Strada2",
+    "Chilometrica",
+    "DaSpecificare",
+    "DecedutoDopo"
+  ],
+  "rename": {
+    "old_new": {
+      "STRADA1": "Strada1",
+      "STRADA2": "Strada2",
+      "particolaritastrade": "ParticolaritaStrade",
+      "NUM_FERITI": "NumFeriti",
+      "NUM_RISERVATA": "NumRiservata",
+      "NUM_MORTI": "NumMorti",
+      "NUM_ILLESI": "NumIllesi",
+      "Tipolesione": "TipoLesione"
+    }
+  },
+  "sampling": {
+    "active": false,
+    "fraction": 0.1
+  }
+}
+
+
+
+
+
+
+
+
+
