@@ -3,9 +3,10 @@ Il pacchetto data_preparation contiene i moduli per preparare i dati per le anal
 
 Moduli:
     loader: carica i dati dal dataset
-    validator: valida i dati
     cleaner: pulisce e normalizza i dati
     explorer: esplora le caratteristiche dei dati
 """
 
 from .loader import DataLoader
+from .cleaner import DataCleaner
+from .explorer import DataAnalysisExplorer
