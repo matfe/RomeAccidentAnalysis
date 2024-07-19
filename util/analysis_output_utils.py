@@ -1,5 +1,7 @@
 import os
 
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 class AnalysisOutputSaver:
     """
@@ -23,7 +25,7 @@ class AnalysisOutputSaver:
         :return: None
         """
         file_path = os.path.join(self.output_path, filename)
-        plt.tight_layout()  #
+        plt.tight_layout()
         plt.savefig(file_path, format='png')
         plt.close()
 
@@ -39,3 +41,13 @@ class AnalysisOutputSaver:
         html_with_css = self.html_css + dataframe.toPandas().to_html(index=False)
         with open(file_path + '.html', 'w') as file:
             file.write(html_with_css)
+
+    def save_fig_html(self, fig, filename: str):
+        """
+        Salva una figura Plot in formato HTML nella directory specificata.
+
+        :param fig: Figura Plot da salvare.
+        :param filename: Nome del file.
+        """
+        file_path = os.path.join(self.output_path, filename + '.html')
+        fig.write_html(file_path)
