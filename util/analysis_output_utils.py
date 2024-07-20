@@ -131,8 +131,12 @@ class AnalysisOutputSaver:
                             title="Fattori", xlabel="Fattore", ylabel="Totale incidenti", rotation=90,
                             filename=f"{key}.png")
 
-            elif key == "hourly":
-                create_plot(pd_df, x='Hour', y='Totale_Incidenti', kind='line', title="Incidenti per Fascia Oraria",
+            elif key == "hours":
+                self.create_plot(pandas_df, x='Ora', y='Totale_Incidenti', kind='line', title="Incidenti durante la giornata",
+                            xlabel="Ora del Giorno", ylabel="Totale Incidenti", filename=f"{key}.png")
+
+            elif key == "hours_top_roads":
+                self.create_plot(pandas_df, x='Ora', y='Totale_Incidenti', kind='line', title="Incidenti durante la giornata nelle zone con più incidenti",
                             xlabel="Ora del Giorno", ylabel="Totale Incidenti", filename=f"{key}.png")
 
     def save_plot_distribution(self, df, combinations):
