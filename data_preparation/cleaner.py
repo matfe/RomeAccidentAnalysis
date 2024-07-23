@@ -16,6 +16,7 @@ class DataCleaner:
         self.geographic_variables = self.config['variables']['geographic']
         self.drop_variables = self.config['drop']
         self.rename_variables = self.config['rename']['old_new']
+        self.values_to_replace = self.config['values_to_replace']
 
     def clean_data(self, dataset_df):
         """
@@ -26,13 +27,10 @@ class DataCleaner:
         :return: Il DataFrame aggiornato
         """
 
-        """
-        Seleziona le prime 37 colonne: nei CSV più recenti è presente un ulteriore colonna vuota da ignorare
-        """
+        # Seleziona le prime 37 colonne: nei CSV più recenti è presente un ulteriore colonna vuota da ignorare
         dataset_df = dataset_df.select(dataset_df.columns[:36])
-        """
-        Elimina righe che hanno gli stessi valori in ogni colonna
-        """
+
+        # Elimina righe che hanno gli stessi valori in ogni colonna
         dataset_df = dataset_df.drop_duplicates()
         dataset_df = self.rename_columns(dataset_df)
         """
@@ -46,11 +44,13 @@ class DataCleaner:
         dataset_df = self.handle_missing_values(dataset_df, self.quantitative_variables, 0)
         dataset_df = self.normalize_text_data(dataset_df, self.qualitative_variables)
         dataset_df = self.normalize_text_data(dataset_df, self.geographic_variables)
-        """
-        Tronca la colonna 'DataOraIncidente' ai primi 16 caratteri, convertendola in formato timestamp 'dd/MM/yyyy HH
-        """
+
+        # Tronca la colonna 'DataOraIncidente' ai primi 16 caratteri, convertendola in formato timestamp 'dd/MM/yyyy HH
         dataset_df = dataset_df.withColumn('DataOraIncidente', substring(col('DataOraIncidente'), 1, 16))  \
                                .withColumn('DataOraIncidente', to_timestamp(col('DataOraIncidente'), 'dd/MM/yyyy HH:mm'))
+
+        # Sostituisce i valori nel DataFrame secondo il dizionario self.values_to_replace.
+        dataset_df = self.replace_values(dataset_df)
 
         return dataset_df
 
@@ -97,3 +97,23 @@ class DataCleaner:
         for text_col in text_columns:
             dataset_df = dataset_df.withColumn(text_col, lower(trim(col(text_col))))
         return dataset_df
+
+    def replace_values(self, dataset_df: DataFrame) -> DataFrame:
+        """
+        Sostituisce i valori nel DataFrame secondo il dizionario self.values_to_replace.
+
+        :param dataset_df: DataFrame in cui eseguire le sostituzioni
+        :return: DataFrame con valori sostituiti
+        """
+        for key, value in self.values_to_replace.items():
+            replacement_list, default_value = value
+
+            if key in dataset_df.columns:
+                dataset_df = dataset_df.replace(replacement_list, default_value, subset=[key])
+
+        return dataset_df
+
+
+
+
+
