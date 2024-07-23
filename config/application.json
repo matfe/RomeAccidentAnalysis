@@ -54,9 +54,14 @@
       "Tipolesione": "TipoLesione"
     }
   },
-  "sampling": {
-    "active": false,
-    "fraction": 0.1
+  "values_to_replace": {
+    "TipoLesione": [["m", "f"], null],
+    "Traffico": [["nuvoloso","pioggia in atto"], null],
+    "TipoVeicolo":  [["1","2"], null],
+    "TipoPersona": [["in marcia / fermata / arresto"], null],
+    "Sesso": [["conducente", "passeggero"], null],
+    "NaturaIncidente": [["p.c. 1221 del 17.06.2008"], null],
+    "FondoStradale": [["una carreggiata a doppio senso", "due carreggiate"], null]
   }
 }
 
