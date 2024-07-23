@@ -20,14 +20,15 @@ class AccidentGeoAnalysis:
         """
         top_zones, top_zones_conditions = self.top_zones(df)
 
-        self.plot_risk_map(top_zones)
+        self.plot_accident_trends(top_zones)
         self.plot_accidents_by_nature(top_zones_conditions)
 
-    def top_zones(self, df, limit=300):
+    def top_zones(self, df, limit=10000):
         """
         Identifica le zone con il maggior numero di incidenti
 
-        :param df: Il DataFrame da elaborare.
+         :param df: Il DataFrame da elaborare.
+        :param limit: Il numero massimo di zone da restituire.
         :return: DataFrame filtrato per includere solo le zone più critiche
         """
         df = df.withColumn('Anno', year(df.DataOraIncidente)) \
@@ -46,7 +47,7 @@ class AccidentGeoAnalysis:
             max("NumMorti").alias("Totale_Morti"),
         )
 
-        top_zones = grouped_df.groupBy("Longitudine", "Latitudine").agg(
+        top_zones = grouped_df.groupBy("Longitudine", "Latitudine", "Anno").agg(
             count("*").alias("Totale_Incidenti"),
             sum("Totale_Feriti"),
             sum("Totale_Morti")
@@ -60,43 +61,39 @@ class AccidentGeoAnalysis:
 
         return top_zones, top_zones_conditions
 
-    def plot_risk_map(self, df):
+    def plot_accident_trends(self, df):
         """
-        Crea e visualizza una mappa dei rischi basata sui dati forniti.
+        Visualizza la distribuzione degli incidenti nelle zone più critiche di Roma nel tempo.
 
-        :param df: Il DataFrame che include colonne con i dati geografici.
+        :param df: DataFrame contenente dati sugli incidenti.
         :return: None. Il metodo visualizza direttamente una mappa.
         """
         pandas_df = df.toPandas()
 
-        color_scale = [
-            [0.0, "white"],
-            [0.5, "orange"],
-            [1.0, "red"]
-        ]
+        # Ordinare i dati per anno in modo crescente
+        pandas_df = pandas_df.sort_values(by='Anno')
 
-        fig = px.scatter_mapbox(
+        fig = px.density_mapbox(
             pandas_df,
-            lat="Latitudine",
-            lon="Longitudine",
-            size="Totale_Incidenti",
-            color="Totale_Incidenti",
-            color_continuous_scale=color_scale,
-            size_max=15,
+            lat='Latitudine',
+            lon='Longitudine',
+            z='Totale_Incidenti',
+            radius=10,
+            center=dict(lat=41.9028, lon=12.4964),
             zoom=10,
             mapbox_style="carto-positron",
-            title="Mappa di rischio degli incidenti"
+            animation_frame='Anno',
+            title="Distribuzione degli incidenti nelle zone più critiche di Roma nel tempo"
         )
 
         fig.show()
-        AnalysisOutputSaver().save_fig_html(fig, "risk_map")
+        AnalysisOutputSaver().save_fig_html(fig, "accident_trends")
 
     def plot_accidents_by_nature(self, top_zones_df):
         """
-        Visualizza l'analisi delle condizioni stradali e atmosferiche relative agli incidenti
-        nelle zone con maggiore frequenza di eventi.
+        Visualizza la distribuzione degli incidenti stradali in base alla natura degli incidenti nelle zone più critiche di Roma.
 
-        :param top_zones_df: DataFrame contenente dati sugli incidenti: includendo dettagli sulle condizioni atmosferiche e stradali nelle zone di interesse.
+        :param top_zones_df: DataFrame contenente dati sugli incidenti.
         :return: None. Il metodo visualizza direttamente una mappa.
         """
         pandas_df = top_zones_df.toPandas()
