@@ -13,6 +13,8 @@ from data_analysis import AccidentAnalysis
 from graph_analysis import GraphAnalysis
 from graph_analysis import AccidentPeopleGraph
 from graph_analysis import AccidentCrossroadsGraph
+from graph_analysis import AccidentRoadsGraph
+from graph_analysis import AccidentTypeVehicleGraph
 
 # Configurazione di una sessione Spark
 spark = SparkSession.builder \
@@ -66,11 +68,24 @@ def main():
     # Crea il grafo di persone coinvolte in incidenti.
     accidentPeopleGraph, nameAccidentPeopleGraph = AccidentPeopleGraph(cleaned_dataset_df).graph()
 
+    # Crea il grafo che rappresenta i tipi di veicoli e i relativi incidenti.
+    accidentTypeVehicleGraph, nameAccidentTypeVehicleGraph = AccidentTypeVehicleGraph(cleaned_dataset_df).graph()
+
+    # Crea il grafo delle strade con incidenti.
+    accidentRoadsGraph, nameAccidentRoadsGraph = AccidentRoadsGraph(cleaned_dataset_df).graph()
+
     # Analizza il grafo di incidenti avvenuti agli incroci stradali.
     GraphAnalysis.analyze(accidentCrossroadsGraph, nameAccidentCrossroadsGraph)
 
     # Analizza il grafo di persone coinvolte in incidenti.
     GraphAnalysis.analyze(accidentPeopleGraph, nameAccidentPeopleGraph, sampleForAdvancedAnalysis=True)
+
+    # Analizza il grafo che rappresenta i tipi di veicoli e i relativi incidenti.
+    GraphAnalysis.analyze(accidentTypeVehicleGraph, nameAccidentTypeVehicleGraph, sampleForAdvancedAnalysis=True)
+
+    # Analizza il grafo delle strade con incidenti.
+    GraphAnalysis.analyze(accidentRoadsGraph, nameAccidentRoadsGraph, sampleForAdvancedAnalysis=True)
+
 
 
 if __name__ == '__main__':
