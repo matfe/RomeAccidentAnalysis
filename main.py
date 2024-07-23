@@ -3,7 +3,8 @@ import os
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StringType
 
-from util import SchemaBuilder
+from spark import SparkSessionBuilder
+from spark import SchemaBuilder
 from util import AnalysisOutputSaver
 from data_preparation import DataLoader
 from data_preparation import DataCleaner
@@ -16,22 +17,17 @@ from graph_analysis import AccidentCrossroadsGraph
 from graph_analysis import AccidentRoadsGraph
 from graph_analysis import AccidentTypeVehicleGraph
 
-# Configurazione di una sessione Spark
-spark = SparkSession.builder \
-    .master("local[*]") \
-    .appName("MyApp") \
-    .config("spark.local", "local") \
-    .config("spark.driver.host", "localhost") \
-    .config("spark.jars.packages", "graphframes:graphframes:0.8.2-spark3.0-s_2.12") \
-    .getOrCreate()
 
 def main():
+
+    # Crea una sessione di Spark
+    sparkSession = SparkSessionBuilder().get_or_create()
 
     # Costruisce lo schema del dataset.
     schema = SchemaBuilder().build_schema()
 
     # Carica i dati utilizzando lo schema e crea un DataFrame Spark.
-    dataset_df = DataLoader(spark, schema).load_data()
+    dataset_df = DataLoader(sparkSession, schema).load_data()
 
     # Pulisce il dataset.
     cleaned_dataset_df = DataCleaner().clean_data(dataset_df)
@@ -86,7 +82,8 @@ def main():
     # Analizza il grafo delle strade con incidenti.
     GraphAnalysis.analyze(accidentRoadsGraph, nameAccidentRoadsGraph, sampleForAdvancedAnalysis=True)
 
-
+    # Chiudi la sessione Spark
+    sparkSession.close_session()
 
 if __name__ == '__main__':
     main()
