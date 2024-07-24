@@ -9,7 +9,7 @@ class SchemaBuilder:
     """
     Classe per creare e gestisce lo schema configurato
     """
-    def build_schema(self,  schema_config_path = "./config/schema_config.json"):
+    def build_schema(self,  schema_config_path = "./config/schema.json"):
         """
          Costruisce uno schema per i dati utilizzando una configurazione specificata.
 
