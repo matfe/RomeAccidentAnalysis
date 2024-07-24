@@ -16,7 +16,7 @@ class DataLoader:
     :var schema: lo schema da utilizzare per leggere i dati
     """
 
-    def __init__(self, spark: SparkSession, schema: StructType, config_path='./config/loader_config.json'):
+    def __init__(self, spark: SparkSession, schema: StructType, config_path='./config/loader.json'):
         """
         Inizializza una nuova istanza della classe DataLoader con uno schema definito.
 
