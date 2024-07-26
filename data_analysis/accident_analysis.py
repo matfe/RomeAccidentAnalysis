@@ -20,7 +20,7 @@ class AccidentAnalysis:
         :return: Un dizionario contenente i risultati delle analisi
         """
         df = self.prepare(df)
-        df_without_duplicates =  df = self.remove_duplicates(df)
+        df_without_duplicates = self.remove_duplicates(df)
 
         temporal_trends = self.analyze_temporal_trends(df_without_duplicates)
         top_roads = self.analyze_top_roads(df_without_duplicates)
