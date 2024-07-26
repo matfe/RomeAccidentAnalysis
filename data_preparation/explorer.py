@@ -28,6 +28,7 @@ class DataAnalysisExplorer:
         Calcola e salva in un file CSV le statistiche descrittive per il dataframe.
         """
         dataframe_description = dataframe.describe()
+        dataframe_description.select("summary", "Protocollo", "NumFeriti", "NumMorti","NumIllesi").show()
         AnalysisOutputSaver().save_html(dataframe_description, "dataframe_description")
 
     def count_missing_values(self, dataframe):
@@ -35,6 +36,7 @@ class DataAnalysisExplorer:
         Conta il numero di valori mancanti per ogni colonna nel dataframe.
         """
         missing_values = dataframe.select([count(when(col(c).isNull(), c)).alias(c) for c in dataframe.columns])
+        missing_values.show()
         AnalysisOutputSaver().save_html(missing_values, "missing_values")
 
     def show_unique_values(self, dataframe, variables):
@@ -43,4 +45,5 @@ class DataAnalysisExplorer:
         """
         for variable in variables:
             unique_values = dataframe.select(variable).distinct()
+            unique_values.show()
             AnalysisOutputSaver().save_html(unique_values, f'unique_values_{variable}')
