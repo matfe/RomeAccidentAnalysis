@@ -1,0 +1,257 @@
+
++-------+------------------+------------------+--------------------+------------------+
+|summary|        Protocollo|         NumFeriti|            NumMorti|         NumIllesi|
++-------+------------------+------------------+--------------------+------------------+
+|  count|           1205980|           1205980|             1205980|           1205980|
+|   mean|2644948.4860802004|0.6476268263155276|0.004771223403373...| 2.288299971807161|
+| stddev|1198207.1567127928|0.9352834228844182| 0.07698005828789814|1.4847793300161796|
+|    min|           1665093|                 0|                   0|                -1|
+|    max|           5923198|                65|                  12|                20|
++-------+------------------+------------------+--------------------+------------------+
+
++----------+------+----------------+---------------+-------+---------------+--------+---------------+-------------------+----------+-------------+--------------+-----------+---------------------+--------+----------+-------------+---------+------------+--------+---------+-----------+----------+----------+-----------+-----------+------------+-----------+-----+-----------+--------+----------------------+
+|Protocollo|Gruppo|DataOraIncidente|Localizzazione1|Strada1|Localizzazione2|Strada02|NaturaIncidente|ParticolaritaStrade|TipoStrada|FondoStradale|Pavimentazione|Segnaletica|CondizioneAtmosferica|Traffico|Visibilita|Illuminazione|NumFeriti|NumRiservata|NumMorti|NumIllesi|Longitudine|Latitudine|Confermato|Progressivo|TipoVeicolo|StatoVeicolo|TipoPersona|Sesso|TipoLesione|Deceduto|CinturaCascoUtilizzato|
++----------+------+----------------+---------------+-------+---------------+--------+---------------+-------------------+----------+-------------+--------------+-----------+---------------------+--------+----------+-------------+---------+------------+--------+---------+-----------+----------+----------+-----------+-----------+------------+-----------+-----+-----------+--------+----------------------+
+|         0|     0|            1837|           6068|      0|              0|  258315|             75|               6204|      6164|         6146|          6115|       6130|                 6140|    6428|      6142|       102302|        0|           0|       0|        0|     683274|    683444|         6|      34819|      34825|       34819|      20235|22744|      20235|   20235|                178263|
++----------+------+----------------+---------------+-------+---------------+--------+---------------+-------------------+----------+-------------+--------------+-----------+---------------------+--------+----------+-------------+---------+------------+--------+---------+-----------+----------+----------+-----------+-----------+------------+-----------+-----+-----------+--------+----------------------+
+
++--------------------+
+|     NaturaIncidente|
++--------------------+
+|scontro frontale/...|
+|veicolo in marcia...|
+|scontro frontale/...|
+|scontro frontale ...|
+|infortunio per so...|
+|veicolo in marcia...|
+|veicolo in marcia...|
+|spartitraffico pe...|
+|scontro laterale ...|
+|        tamponamento|
+|veicoli in marcia...|
+|veicolo in marcia...|
+|veicoli in marcia...|
+|veicolo in marcia...|
+|veicolo in marcia...|
+|veicolo in marcia...|
+|veicolo in marcia...|
+|investimento di p...|
+|infortunio per ca...|
+|ribaltamento senz...|
++--------------------+
+only showing top 20 rows
+
++--------------------+
+| ParticolaritaStrade|
++--------------------+
+|curva senza visua...|
+|           rotatoria|
+|intersezione non ...|
+| galleria illuminata|
+|          cavalcavia|
+|galleria non illu...|
+|intersezione rego...|
+|scontro frontale/...|
+|intersezione sema...|
+|curva a visuale l...|
+|           strettoia|
+|            pendenza|
+|passaggio a livel...|
+|        pianeggiante|
+|scontro laterale ...|
+|          rettilineo|
+|intersezione stra...|
+|             cunetta|
+|            incrocio|
+|sottopasso non il...|
++--------------------+
+only showing top 20 rows
+
++--------------------+
+|          TipoStrada|
++--------------------+
+|     due carreggiate|
+|una carreggiata a...|
+|pi� di due carreg...|
+|una carreggiata a...|
+|una carreggiata a...|
+|          rettilineo|
+|                NULL|
++--------------------+
+
++--------------------+
+|       FondoStradale|
++--------------------+
+|bagnato (umidit� ...|
+|sdrucciolevole (f...|
+|        con grandine|
+|          ghiacciato|
+|sdrucciolevole (t...|
+|sdrucciolevole (s...|
+|            asciutto|
+|   bagnato (pioggia)|
+|     bagnato (brina)|
+|            con neve|
+|viscido da liquid...|
+|sdrucciolevole (p...|
+|                NULL|
++--------------------+
+
++--------------------+
+|      Pavimentazione|
++--------------------+
+|          lastricata|
+|in conglomerato c...|
+|          inghiaiata|
+|in cubetti di por...|
+|            asciutto|
+|   bagnato (pioggia)|
+|         acciotolata|
+|           con buche|
+|strada pavimentat...|
+|      fondo naturale|
+|           asfaltata|
+|            sterrata|
+|            bitumata|
+|                NULL|
++--------------------+
+
++--------------------+
+|         Segnaletica|
++--------------------+
+|             assente|
+|         orizzontale|
+|temporanea di can...|
+|           verticale|
+|verticale ed oriz...|
+|           asfaltata|
+|                NULL|
++--------------------+
+
++---------------------+
+|CondizioneAtmosferica|
++---------------------+
+|               sereno|
+|             nuvoloso|
+|      pioggia in atto|
+|          vento forte|
+|              assente|
+|          orizzontale|
+|               nebbia|
+|     grandine in atto|
+|         sole radente|
+|              foschia|
+|     nevicata in atto|
+|                 NULL|
++---------------------+
+
++--------+
+|Traffico|
++--------+
+| normale|
+|  scarso|
+| intenso|
+|    NULL|
++--------+
+
++-------------+
+|   Visibilita|
++-------------+
+|  sufficiente|
+|      normale|
+|        buona|
+|insufficiente|
+|         NULL|
++-------------+
+
++-------------+
+|Illuminazione|
++-------------+
+|  sufficiente|
+|   ore diurne|
+|  inesistente|
+|insufficiente|
+|        buona|
+|         NULL|
++-------------+
+
++--------------------+
+|         TipoVeicolo|
++--------------------+
+|autocarro inferio...|
+| autovettura privata|
+|    veicolo speciale|
+|autobus in extrau...|
+|   trattore agricolo|
+|         autosnodato|
+|autovettura con r...|
+|             autogru|
+|   veicolo a braccia|
+|bicicletta elettrica|
+|autovettura pubblica|
+|autovettura di po...|
+|motociclo di polizia|
+|      autoarticolato|
+|         autocaravan|
+|           autotreno|
+|   autobus turistico|
+|ciclomotore con p...|
+|             filobus|
+|         quadriciclo|
++--------------------+
+only showing top 20 rows
+
++--------------------+
+|        StatoVeicolo|
++--------------------+
+| autovettura privata|
+|in marcia / ferma...|
+|       allontanatosi|
+|               sosta|
+|                NULL|
++--------------------+
+
++--------------------+
+|         TipoPersona|
++--------------------+
+|passeggero istrut...|
+|          conducente|
+|  pedone sconosciuto|
+|pedone non identi...|
+|          passeggero|
+|              pedone|
+|passeggero non id...|
+|                NULL|
++--------------------+
+
++-----+
+|Sesso|
++-----+
+|    f|
+|    m|
+| NULL|
++-----+
+
++--------------------+
+|         TipoLesione|
++--------------------+
+|              illeso|
+|           rimandato|
+|          ricoverato|
+|  deceduto sul posto|
+|deceduto durante ...|
+|rifiuta cure imme...|
+|  prognosi riservata|
+|deceduto durante ...|
+|                NULL|
++--------------------+
+
++----------------------+
+|CinturaCascoUtilizzato|
++----------------------+
+|            utilizzato|
+|        non utilizzato|
+|                esente|
+|         non accertato|
+|                  NULL|
++----------------------+

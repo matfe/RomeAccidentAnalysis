@@ -1,0 +1,1811 @@
+ ----------------- AccidentCrossroadsGraph: pagerank  -----------------
++--------------------+------------------+
+|                  id|          pagerank|
++--------------------+------------------+
+|        via casilina|20.702990291987277|
+|via cristoforo co...|  20.0333902209953|
+|      via prenestina| 19.89156632828565|
+|       via trionfale|19.057552404578797|
+|         via salaria|18.174123286478057|
+|       via tuscolana| 16.56914124714795|
+|       via tiburtina|15.427275703898587|
+| via di torrevecchia|14.172933586467426|
+|       via nomentana|13.336013661731446|
+|        via flaminia|13.270044240715238|
+|     via appia nuova| 12.32767584303554|
+|       via portuense|11.532271092161562|
+|          via cassia|10.786210187146613|
+|viale palmiro tog...| 10.58409651800013|
+|        via ostiense| 10.48442409596368|
+|      via laurentina|10.359526939223606|
+|       via di boccea| 10.04596568314704|
+|         via aurelia| 9.137987559457585|
+| viale di trastevere| 9.026057983825805|
+| viale dei romagnoli| 8.825650322789064|
++--------------------+------------------+
+only showing top 20 rows
+
+ ----------------- AccidentCrossroadsGraph: degree  -----------------
++--------------------+------+
+|                  id|degree|
++--------------------+------+
+|        via casilina|   252|
+|      via prenestina|   227|
+|       via tiburtina|   197|
+|via cristoforo co...|   193|
+|       via nomentana|   185|
+|       via tuscolana|   185|
+|          via cassia|   170|
+|       via trionfale|   151|
+|       via portuense|   138|
+|       via di boccea|   131|
+|        via flaminia|   130|
+|         via salaria|   129|
+|        via ostiense|   128|
+|     via appia nuova|   122|
+|      via laurentina|   117|
+| via di torrevecchia|   115|
+|viale palmiro tog...|   112|
+|         via aurelia|   109|
+|       via ardeatina|    97|
+|       via collatina|    96|
++--------------------+------+
+only showing top 20 rows
+
+ ----------------- AccidentCrossroadsGraph: in_degree  -----------------
++--------------------+--------+
+|                  id|inDegree|
++--------------------+--------+
+|        via casilina|      91|
+|      via prenestina|      78|
+|via cristoforo co...|      77|
+|       via tuscolana|      66|
+|       via tiburtina|      66|
+|       via nomentana|      59|
+|       via trionfale|      53|
+|          via cassia|      52|
+|        via flaminia|      50|
+|        via ostiense|      50|
+|         via salaria|      47|
+|       via portuense|      45|
+|      via laurentina|      44|
+| via di torrevecchia|      42|
+|viale palmiro tog...|      41|
+|       via di boccea|      41|
+|     via appia nuova|      39|
+|       via collatina|      34|
+|         via aurelia|      34|
+| viale dei romagnoli|      32|
++--------------------+--------+
+only showing top 20 rows
+
+ ----------------- AccidentCrossroadsGraph: out_degree  -----------------
++--------------------+---------+
+|                  id|outDegree|
++--------------------+---------+
+|        via casilina|      161|
+|      via prenestina|      149|
+|       via tiburtina|      131|
+|       via nomentana|      126|
+|       via tuscolana|      119|
+|          via cassia|      118|
+|via cristoforo co...|      116|
+|       via trionfale|       98|
+|       via portuense|       93|
+|       via di boccea|       90|
+|     via appia nuova|       83|
+|         via salaria|       82|
+|        via flaminia|       80|
+|        via ostiense|       78|
+|         via aurelia|       75|
+| via di torrevecchia|       73|
+|      via laurentina|       73|
+|viale palmiro tog...|       71|
+|       via ardeatina|       69|
+|       via collatina|       62|
++--------------------+---------+
+only showing top 20 rows
+
+ ----------------- AccidentCrossroadsGraph: triangle_count  -----------------
++--------------------+-----+
+|                  id|count|
++--------------------+-----+
+|via cristoforo co...|   92|
+|      via prenestina|   83|
+|        via casilina|   75|
+|        via ostiense|   69|
+|       via tuscolana|   67|
+|       via nomentana|   55|
+|     via appia nuova|   52|
+|      via laurentina|   45|
+|        via flaminia|   44|
+|       via tiburtina|   44|
+|       via trionfale|   43|
+|       via collatina|   41|
+|          via cassia|   40|
+|viale guglielmo m...|   38|
+|         via aurelia|   36|
+| via tor de' schiavi|   35|
+| viale dei romagnoli|   34|
+|         via salaria|   34|
+|       via portuense|   33|
+|viale di castel p...|   33|
++--------------------+-----+
+only showing top 20 rows
+
+ ----------------- AccidentCrossroadsGraph: label_propagation  -----------------
++--------------------+-----------+
+|                  id|      label|
++--------------------+-----------+
+|      via prenestina|       2300|
+|via di acqua acet...|25769804511|
+|  via pian due torri|25769806034|
+|       via portuense|17179871522|
+|circonvallazione ...|25769803779|
+|via federico borr...| 8589936051|
+|lungotevere salvo...|         11|
+|   via giulio romano|25769805490|
+| largo giulio onesti|17179869274|
+|  viale regina elena|       2739|
+|   via ernesto breda| 8589935869|
+|       via collatina| 8589935474|
+|       via gallarate| 8589935732|
+|     via appia nuova| 8589935134|
+|    via di villa ada|17179871778|
+|piazza giuseppe p...|17179869406|
+|       via cessaniti| 8589935415|
+|    via di vermicino|       1284|
+|        via casilina| 8589935378|
+|   via ermanno ponti| 8589936618|
+|via dei prati fis...| 8589935634|
+|via di casal boccone|17179870800|
+|      corso sempione|       2111|
+|     via portigliola|       2293|
+|   via castellinaldo|25769804538|
+|         via sillano| 8589935398|
+|          via cavour| 8589935407|
+|   via marco aurelio|        454|
+|via delle capannelle|25769804952|
+|  via cesare maccari|25769805407|
+|piazza di s. cost...|       2111|
+|       via dei ramni|17179870193|
+|via del casale di...|17179870225|
+| via alfonso torelli|25769804161|
+|via del fosso di ...|       2757|
+|   via di prataporci|17179870459|
+|viale dei colli p...|       2730|
+|        via flaminia| 8589936105|
+|        piazza capri|       2111|
+|           via siria| 8589934758|
+|viale palmiro tog...| 8589937279|
+|piazza alfonso ca...|25769803900|
+|     via pietro rosa|17179870357|
+| viale del tecnopolo|       1267|
+|corso regina mari...|25769806588|
+|       piazza pio xi|25769804191|
+|         via ostilia|25769804550|
+|      piazza salerno|       2739|
+|      piazzale jonio|25769804811|
+|via attilio ambro...|25769803861|
+|viale alfredo zam...|25769805620|
+|via giovanni volpato|25769805475|
+|         via palermo|        173|
+|piazzale delle pr...|        505|
+|via di grotte d'a...| 8589935870|
+|via antoniotto us...|25769803996|
+|via aristide leonori| 8589935867|
+|via alessandro fl...| 8589935239|
+|via vincenzo stat...|17179872031|
+|    via del quadraro| 8589937279|
+|via giuseppe casa...|25769805510|
+|largo piazza tien...|17179870699|
+|via del casale di...| 8589935326|
+|  via edoardo jenner|17179870571|
+|      via garigliano|       2111|
+|    via del serafico|17179870282|
+|via oderisi da gu...|17179869316|
+| via pietro barbieri|        765|
+|via adelaide bono...|17179869425|
+|          via celine|25769804965|
+|      via del trullo|17179870288|
+|viale dell'univer...|       2739|
+|  via di tor vergata| 8589935922|
+|piazza antonio me...|17179869316|
+|viale di porta ar...|       2748|
+|    viale marco polo| 8589935149|
+|        via pinciana|       2111|
+|piazza tolosetto ...|        723|
+|via di prato corn...| 8589935956|
+|lungotevere in au...|17179869423|
+|via ignazio scimo...|       2757|
+|via calderon de l...|25769803861|
+|viale di val fiorita|25769806554|
+|largo mustafa kem...|       2793|
+|       via di acilia|17179870424|
+|piazza santiago d...|25769804210|
+|      via radicofani| 8589936982|
+|         via vicenza| 8589936630|
+|         via taranto|       2523|
+|via tullio levi c...|17179869316|
+|              via po|25769804625|
+|viale delle mura ...|17179869908|
+|         via tolmino|       2111|
+|    via val di lanzo|       2607|
+|   via delle azzorre|25769805620|
+|largo giovanni an...| 8589934672|
+|via del porto flu...|25769803933|
+|via degli eroi di...|25769806411|
+| viale dei romagnoli|25769806527|
+|           via usini|        738|
++--------------------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentCrossroadsGraph: strongly_connected_components  -----------------
++--------------------+---------+
+|                  id|component|
++--------------------+---------+
+|      via prenestina|        3|
+|via di acqua acet...|        3|
+|  via pian due torri|        3|
+|       via portuense|        3|
+|circonvallazione ...|        3|
+|via federico borr...|        3|
+|lungotevere salvo...|        3|
+|   via giulio romano|        3|
+| largo giulio onesti|        3|
+|  viale regina elena|        3|
+|   via ernesto breda|        3|
+|       via collatina|        3|
+|       via gallarate|        3|
+|     via appia nuova|        3|
+|    via di villa ada|        3|
+|piazza giuseppe p...|        3|
+|       via cessaniti|      809|
+|    via di vermicino|        3|
+|        via casilina|        3|
+|   via ermanno ponti|     1384|
+|via dei prati fis...|        3|
+|via di casal boccone|        3|
+|      corso sempione|        3|
+|     via portigliola|        3|
+|   via castellinaldo|     2056|
+|         via sillano|     2467|
+|          via cavour|        3|
+|   via marco aurelio|        3|
+|via delle capannelle|        3|
+|  via cesare maccari|        3|
+|piazza di s. cost...|        3|
+|       via dei ramni|        3|
+|via del casale di...|        3|
+| via alfonso torelli|        3|
+|via del fosso di ...|        3|
+|   via di prataporci|        3|
+|viale dei colli p...|        3|
+|        via flaminia|        3|
+|        piazza capri|        3|
+|           via siria|        3|
+|viale palmiro tog...|        3|
+|piazza alfonso ca...|        3|
+|     via pietro rosa|        3|
+| viale del tecnopolo|        3|
+|corso regina mari...|        3|
+|       piazza pio xi|        3|
+|         via ostilia|        3|
+|      piazza salerno|        3|
+|      piazzale jonio|        3|
+|via attilio ambro...|        3|
+|viale alfredo zam...|        3|
+|via giovanni volpato|        3|
+|         via palermo|        3|
+|piazzale delle pr...|        3|
+|via di grotte d'a...|        3|
+|via antoniotto us...|        3|
+|via aristide leonori|        3|
+|via alessandro fl...|        3|
+|via vincenzo stat...|        3|
+|    via del quadraro|        3|
+|via giuseppe casa...|        3|
+|largo piazza tien...|        3|
+|via del casale di...|        3|
+|  via edoardo jenner|        3|
+|      via garigliano|        3|
+|    via del serafico|        3|
+|via oderisi da gu...|        3|
+| via pietro barbieri|        3|
+|via adelaide bono...|        3|
+|          via celine|        3|
+|      via del trullo|        3|
+|viale dell'univer...|        3|
+|  via di tor vergata|        3|
+|piazza antonio me...|        3|
+|viale di porta ar...|        3|
+|    viale marco polo|        3|
+|        via pinciana|        3|
+|piazza tolosetto ...|        3|
+|via di prato corn...|        3|
+|lungotevere in au...|        3|
+|via ignazio scimo...|        3|
+|via calderon de l...|        3|
+|viale di val fiorita|        3|
+|largo mustafa kem...|        3|
+|       via di acilia|        3|
+|piazza santiago d...|        3|
+|      via radicofani|        3|
+|         via vicenza|        3|
+|         via taranto|        3|
+|via tullio levi c...|        3|
+|              via po|        3|
+|viale delle mura ...|        3|
+|         via tolmino|        3|
+|    via val di lanzo|        3|
+|   via delle azzorre|        3|
+|largo giovanni an...|      144|
+|via del porto flu...|        3|
+|via degli eroi di...|        3|
+| viale dei romagnoli|        3|
+|           via usini|        3|
++--------------------+---------+
+only showing top 100 rows
+
+ ----------------- AccidentCrossroadsGraph: motif_finding  -----------------
++--------------------+--------------------+--------------------+
+|                   a|                   e|                   b|
++--------------------+--------------------+--------------------+
+|{via salvino sern...|{via salvino sern...|{via ostiense, st...|
+|{via isole del ca...|{via isole del ca...|{via delle baleni...|
+|{largo giulio one...|{largo giulio one...|{via dei campi sp...|
+|{via gallarate, s...|{via gallarate, v...|{via casilina, st...|
+|{via bernardino r...|{via bernardino r...|{via federico di ...|
+|{via di villa ada...|{via di villa ada...|{via lariana, str...|
+|{via cassia, strada}|{via cassia, via ...|{via monte peloso...|
+|{via dei prati fi...|{via dei prati fi...|{via cavriglia, s...|
+|{via cesare macca...|{via cesare macca...|{via angelo galli...|
+|{via salaria, str...|{via salaria, via...| {via anapo, strada}|
+|{via cristoforo c...|{via cristoforo c...|{via cristoforo c...|
+|{via delle vigne ...|{via delle vigne ...|{largo fratelli l...|
+|{viale maresciall...|{viale maresciall...|{corso di francia...|
+|{via giovanni vol...|{via giovanni vol...|{via baccio baldi...|
+|{via cristoforo c...|{via cristoforo c...|{viale marco polo...|
+|{via tuscolana, s...|{via tuscolana, v...|{via marco decumi...|
+|{via dei bragozzi...|{via dei bragozzi...|{viale vasco de g...|
+|{viale delle repu...|{viale delle repu...|{corso duca di ge...|
+|{piazza albania, ...|{piazza albania, ...|{viale aventino, ...|
+|{via luigi petros...|{via luigi petros...|{via del foro oli...|
+|{via cristoforo c...|{via cristoforo c...|{viale asia, strada}|
+|{via guido calza,...|{via guido calza,...|{viale dei romagn...|
+|{via salaria, str...|{via salaria, via...|{viale somalia, s...|
+|{via casilina, st...|{via casilina, vi...|{via carlo santar...|
+|{viale dei salesi...|{viale dei salesi...|{via publio valer...|
+|{via etruria, str...|{via etruria, via...|{via albalonga, s...|
+|{via nicola salvi...|{via nicola salvi...|{via delle terme ...|
+|{via chiana, strada}|{via chiana, via ...|  {via agri, strada}|
+|{viale palmiro to...|{viale palmiro to...|{viale ettore fra...|
+|{via calderon de ...|{via calderon de ...|{via vienna, strada}|
+|{via ostiense, st...|{via ostiense, vi...|{via pellegrino m...|
+|{viale val padana...|{viale val padana...|{via valle vermig...|
+|{via del casale d...|{via del casale d...|{via pieve torina...|
+|{via radicofani, ...|{via radicofani, ...|{via cortona, str...|
+|{via roberto crip...|{via roberto crip...|{via umberto lill...|
+|{via prenestina, ...|{via prenestina, ...|{via di rocca cen...|
+|{viale erminio sp...|{viale erminio sp...|{via learco guerr...|
+|{via delle ebridi...|{via delle ebridi...|{via della martin...|
+|{via tiburtina, s...|{via tiburtina, p...|{piazzale valerio...|
+|{largo delle term...|{largo delle term...|{viale guido bacc...|
+|{viale europa, st...|{viale europa, vi...|{viale boston, st...|
+|{via erasmo gatta...|{via erasmo gatta...|{via luchino dal ...|
+|{via olevano roma...|{via olevano roma...|{via alatri, strada}|
+|{via collatina, s...|{via collatina, p...|{piazza cesare de...|
+|{via dei casali d...|{via dei casali d...|{via luigi nono, ...|
+|{via dei glicini,...|{via dei glicini,...|{via dei frassini...|
+|{viale palmiro to...|{viale palmiro to...|{piazzale pino pa...|
+|{via papiria, str...|{via papiria, via...|{viale marco fulv...|
+|{via laurentina, ...|{via laurentina, ...|{via dei boccabel...|
+|{via trionfale, s...|{via trionfale, v...|{viale dei cavali...|
+|{via federico con...|{via federico con...|{via edoardo fabb...|
+|{via gino severin...|{via gino severin...|{piazzale pino pa...|
+|{via angelo visco...|{via angelo visco...|{via di tor tre t...|
+|{via carlo marenc...|{via carlo marenc...|{via danilo stiep...|
+|{via delle fornac...|{via delle fornac...|{largo di porta c...|
+|{via cortona, str...|{via cortona, via...|{via di villa spa...|
+|{via appia nuova,...|{via appia nuova,...|{via delle capann...|
+|{via di boccea, s...|{via di boccea, v...|{via giuseppe mar...|
+|{via del casale d...|{via del casale d...|{piazza di villa ...|
+|{via andrea di bo...|{via andrea di bo...|{via antonio pisa...|
+|{via quirino majo...|{via quirino majo...|{via del fornetto...|
+|{via di boccea, s...|{via di boccea, v...|{via del quartacc...|
+|{viale regina mar...|{viale regina mar...|{via metauro, str...|
+|{via venti settem...|{via venti settem...|{via delle quattr...|
+|{viale palmiro to...|{viale palmiro to...|{via prenestina, ...|
+|{via luigi fincat...|{via luigi fincat...|{via giacopo scot...|
+|{viale regina ele...|{viale regina ele...|{viale dell'unive...|
+|{via pievebovigli...|{via pievebovigli...|{via morrovalle, ...|
+|{piazza cesare de...|{piazza cesare de...|{via collatina, s...|
+|{via gargano, str...|{via gargano, via...|{via monte tesoro...|
+|{via prenestina, ...|{via prenestina, ...|{via olevano roma...|
+|{via di s. raffae...|{via di s. raffae...|{via campagnatico...|
+|{via gioberti, st...|{via gioberti, vi...|{via farini, strada}|
+|{viale dell'astro...|{viale dell'astro...|{viale beethoven,...|
+|{via salaria, str...|{via salaria, via...|{viale regina mar...|
+|{via pietro roman...|{via pietro roman...|{via manuel de fa...|
+|{via di bravetta,...|{via di bravetta,...|{via camillo sera...|
+|{via cristoforo c...|{via cristoforo c...|{via giovanni gen...|
+|{via veroli, strada}|{via veroli, via ...|{via ausonia, str...|
+|{via delle palme,...|{via delle palme,...|{via delle betull...|
+|{via diego fabbri...|{via diego fabbri...|{via alessandro d...|
+| {via teano, strada}|{via teano, via a...|{via aquilonia, s...|
+|{via vincenzo van...|{via vincenzo van...|{via lucio lepidi...|
+|{via della marran...|{via della marran...|{via lugnano in t...|
+|{via della giusti...|{via della giusti...|{via pietro ferlo...|
+|{via paolo ferrar...|{via paolo ferrar...|{vicolo della cer...|
+|{via carlo porta,...|{via carlo porta,...|{viale di trastev...|
+|{via cassia, strada}|{via cassia, via ...|{via bassano roma...|
+|{via di rocca cen...|{via di rocca cen...|{via mandanici, s...|
+|{via leon pancald...|{via leon pancald...|{via luca tarigo,...|
+|{lungotevere gugl...|{lungotevere gugl...|{ponte del risorg...|
+|{corso vittorio e...|{corso vittorio e...| {via larga, strada}|
+|{piazzetta del be...|{piazzetta del be...|{via vitellia, st...|
+|{borgo s. spirito...|{borgo s. spirito...|{via s. pio x, st...|
+|{viale vaticano, ...|{viale vaticano, ...|{via santamaura, ...|
+|{via del casale d...|{via del casale d...|{via nicola maria...|
+|{via nicola maria...|{via nicola maria...|{via poggio bracc...|
+|{via casignana, s...|{via casignana, v...|{via montepaone, ...|
+|{via sabaudia, st...|{via sabaudia, vi...|{via prenestina, ...|
+|{via urzulei, str...|{via urzulei, via...|{via arzachena, s...|
++--------------------+--------------------+--------------------+
+only showing top 100 rows
+
+ ----------------- AccidentPeopleGraph: pagerank  -----------------
++--------------------+------------------+
+|                  id|          pagerank|
++--------------------+------------------+
+|          conducente|179796.82881104108|
+|          passeggero| 43973.31245483054|
+|              pedone| 7465.196339997912|
+|passeggero istrut...|45.950744006423484|
+|  pedone sconosciuto|28.338018875052484|
+|pedone non identi...|1.3828917174759352|
+|passeggero non id...|0.8468522569559475|
+|             1665119|0.5405439938016686|
+|             1665122|0.5405439938016686|
+|             1665133|0.5405439938016686|
+|             1665109|0.5405439938016686|
+|             1665136|0.5405439938016686|
+|             1665256|0.5405439938016686|
+|             1665166|0.5405439938016686|
+|             1665110|0.5405439938016686|
+|             1665245|0.5405439938016686|
+|             1665139|0.5405439938016686|
+|             1665257|0.5405439938016686|
+|             1665137|0.5405439938016686|
+|             1665295|0.5405439938016686|
++--------------------+------------------+
+only showing top 20 rows
+
+ ----------------- AccidentPeopleGraph: degree  -----------------
++--------------------+------+
+|                  id|degree|
++--------------------+------+
+|          conducente|501653|
+|          passeggero|192993|
+|              pedone| 32919|
+|passeggero istrut...|   224|
+|  pedone sconosciuto|   131|
+|             1684000|     3|
+|             1711682|     3|
+|             1820691|     3|
+|             1675452|     3|
+|             1724230|     3|
+|             1683513|     3|
+|             1681650|     3|
+|             1674722|     3|
+|             1725338|     3|
+|             1683250|     3|
+|             1885766|     3|
+|             1681297|     3|
+|             1707305|     3|
+|             1724948|     3|
+|             1668835|     3|
++--------------------+------+
+only showing top 20 rows
+
+ ----------------- AccidentPeopleGraph: in_degree  -----------------
++--------------------+--------+
+|                  id|inDegree|
++--------------------+--------+
+|          conducente|  501653|
+|          passeggero|  192993|
+|              pedone|   32919|
+|passeggero istrut...|     224|
+|  pedone sconosciuto|     131|
+|pedone non identi...|       3|
+|passeggero non id...|       2|
++--------------------+--------+
+
+ ----------------- AccidentPeopleGraph: out_degree  -----------------
++-------+---------+
+|     id|outDegree|
++-------+---------+
+|1683250|        3|
+|1724948|        3|
+|1682835|        3|
+|1711318|        3|
+|1683783|        3|
+|1725338|        3|
+|1712670|        3|
+|1700090|        3|
+|1710251|        3|
+|1701303|        3|
+|1683048|        3|
+|1702113|        3|
+|1709331|        3|
+|1702891|        3|
+|1876424|        3|
+|1703305|        3|
+|1684000|        3|
+|1677306|        3|
+|1877497|        3|
+|1883597|        3|
++-------+---------+
+only showing top 20 rows
+
+ ----------------- AccidentPeopleGraph: triangle_count  -----------------
++-------+-----+
+|     id|count|
++-------+-----+
+|1680251|    0|
+|1680296|    0|
+|1680298|    0|
+|1680557|    0|
+|1680842|    0|
+|1680934|    0|
+|1680976|    0|
+|1681007|    0|
+|1681309|    0|
+|1681586|    0|
+|1681603|    0|
+|1681680|    0|
+|1681730|    0|
+|1681829|    0|
+|1682135|    0|
+|1682190|    0|
+|1682267|    0|
+|1682444|    0|
+|1682489|    0|
+|1682582|    0|
++-------+-----+
+only showing top 20 rows
+
+ ----------------- AccidentPeopleGraph: label_propagation  -----------------
++-------+-----------+
+|     id|      label|
++-------+-----------+
+|1680168|17179870149|
+|1680171|17179870150|
+|1680197|25769804763|
+|1680235|17179870158|
+|1680251| 8589941528|
+|1680296|        973|
+|1680298|        974|
+|1680315|17179870164|
+|1680557| 8589941528|
+|1680665| 8589935645|
+|1680709|25769804786|
+|1680842|       1012|
+|1680854|25769804797|
+|1680910|25769804800|
+|1680934| 8589941528|
+|1680939|25769804806|
+|1680976|       1027|
+|1680998|25769804812|
+|1681007|       1030|
+|1681118|25769804819|
+|1681140|17179870211|
+|1681141|17179870212|
+|1681188|17179870216|
+|1681238| 8589935683|
+|1681309|       1049|
+|1681387| 8589935692|
+|1681406|17179870225|
+|1681442|25769804840|
+|1681509| 8589935701|
+|1681519| 8589935702|
+|1681535|25769804843|
+|1681567|17179870240|
+|1681586|       1067|
+|1681603|       1068|
+|1681611|25769804847|
+|1681626| 8589935712|
+|1681680| 8589941528|
+|1681685|17179870249|
+|1681727|17179870252|
+|1681730|       1078|
+|1681744|25769804855|
+|1681829|       1086|
+|1681856| 8589941528|
+|1681981| 8589941528|
+|1681996|25769804874|
+|1682021|25769804876|
+|1682043|25769804878|
+|1682135|       1103|
+|1682171|25769804887|
+|1682190|       1107|
+|1682210|25769804890|
+|1682267| 8589941528|
+|1682341|25769804899|
+|1682389| 8589935769|
+|1682419| 8589935771|
+|1682429| 8589941528|
+|1682444|       1123|
+|1682479|17179870308|
+|1682489|       1125|
+|1682540| 8589935774|
+|1682542|25769804915|
+|1682557|25769804917|
+|1682567|17179870313|
+|1682582| 8589941528|
+|1682607| 8589941528|
+|1682615| 8589941528|
+|1682617| 8589935778|
+|1682653|25769804929|
+|1682717|       1138|
+|1682722| 8589935787|
+|1682729|       1140|
+|1682825|25769804943|
+|1682843|17179870328|
+|1682877| 8589941528|
+|1682892|25769804949|
+|1683002|25769804960|
+|1683097|17179870354|
+|1683107| 8589941528|
+|1683134|       1160|
+|1683173| 8589941528|
+|1683198| 8589941528|
+|1683204| 8589941528|
+|1683219| 8589935810|
+|1683239|25769804969|
+|1683259| 8589935812|
+|1683277|       1173|
+|1683308|17179870363|
+|1683315|17179870365|
+|1683321| 8589935815|
+|1683360| 8589935818|
+|1683376|25769804984|
+|1683389|17179870370|
+|1683418|17179870371|
+|1683457|25769804988|
+|1683493|17179870375|
+|1683515|       1188|
+|1683585|25769804999|
+|1683604|17179870384|
+|1683635| 8589935839|
+|1683647|25769805005|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentPeopleGraph: strongly_connected_components  -----------------
++-------+-----------+
+|     id|  component|
++-------+-----------+
+|1680168|17179870149|
+|1680171|17179870150|
+|1680197|25769804763|
+|1680235|17179870158|
+|1680251|        970|
+|1680296|        973|
+|1680298|        974|
+|1680315|17179870164|
+|1680557|        998|
+|1680665| 8589935645|
+|1680709|25769804786|
+|1680842|       1012|
+|1680854|25769804797|
+|1680910|25769804800|
+|1680934|       1025|
+|1680939|25769804806|
+|1680976|       1027|
+|1680998|25769804812|
+|1681007|       1030|
+|1681118|25769804819|
+|1681140|17179870211|
+|1681141|17179870212|
+|1681188|17179870216|
+|1681238| 8589935683|
+|1681309|       1049|
+|1681387| 8589935692|
+|1681406|17179870225|
+|1681442|25769804840|
+|1681509| 8589935701|
+|1681519| 8589935702|
+|1681535|25769804843|
+|1681567|17179870240|
+|1681586|       1067|
+|1681603|       1068|
+|1681611|25769804847|
+|1681626| 8589935712|
+|1681680|       1075|
+|1681685|17179870249|
+|1681727|17179870252|
+|1681730|       1078|
+|1681744|25769804855|
+|1681829|       1086|
+|1681856| 8589935727|
+|1681981|25769804873|
+|1681996|25769804874|
+|1682021|25769804876|
+|1682043|25769804878|
+|1682135|       1103|
+|1682171|25769804887|
+|1682190|       1107|
+|1682210|25769804890|
+|1682267|       1114|
+|1682341|25769804899|
+|1682389| 8589935769|
+|1682419| 8589935771|
+|1682429|25769804905|
+|1682444|       1123|
+|1682479|17179870308|
+|1682489|       1125|
+|1682540| 8589935774|
+|1682542|25769804915|
+|1682557|25769804917|
+|1682567|17179870313|
+|1682582|       1129|
+|1682607|25769804921|
+|1682615|25769804922|
+|1682617| 8589935778|
+|1682653|25769804929|
+|1682717|       1138|
+|1682722| 8589935787|
+|1682729|       1140|
+|1682825|25769804943|
+|1682843|17179870328|
+|1682877|25769804948|
+|1682892|25769804949|
+|1683002|25769804960|
+|1683097|17179870354|
+|1683107|17179870355|
+|1683134|       1160|
+|1683173| 8589935808|
+|1683198|25769804965|
+|1683204|17179870361|
+|1683219| 8589935810|
+|1683239|25769804969|
+|1683259| 8589935812|
+|1683277|       1173|
+|1683308|17179870363|
+|1683315|17179870365|
+|1683321| 8589935815|
+|1683360| 8589935818|
+|1683376|25769804984|
+|1683389|17179870370|
+|1683418|17179870371|
+|1683457|25769804988|
+|1683493|17179870375|
+|1683515|       1188|
+|1683585|25769804999|
+|1683604|17179870384|
+|1683635| 8589935839|
+|1683647|25769805005|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentPeopleGraph: motif_finding  -----------------
++-------------------+--------------------+--------------------+
+|                  a|                   e|                   b|
++-------------------+--------------------+--------------------+
+|{1680886, accident}|{1680886, passegg...|{passeggero, person}|
+|{1681025, accident}|{1681025, passegg...|{passeggero, person}|
+|{1682619, accident}|{1682619, passegg...|{passeggero, person}|
+|{1684407, accident}|{1684407, passegg...|{passeggero, person}|
+|{1690827, accident}|{1690827, passegg...|{passeggero, person}|
+|{1713748, accident}|{1713748, passegg...|{passeggero, person}|
+|{1673783, accident}|{1673783, passegg...|{passeggero, person}|
+|{1674214, accident}|{1674214, passegg...|{passeggero, person}|
+|{1674549, accident}|{1674549, passegg...|{passeggero, person}|
+|{1674722, accident}|{1674722, passegg...|{passeggero, person}|
+|{1674754, accident}|{1674754, passegg...|{passeggero, person}|
+|{1675202, accident}|{1675202, passegg...|{passeggero, person}|
+|{1675463, accident}|{1675463, passegg...|{passeggero, person}|
+|{1675693, accident}|{1675693, passegg...|{passeggero, person}|
+|{1675973, accident}|{1675973, passegg...|{passeggero, person}|
+|{1676016, accident}|{1676016, passegg...|{passeggero, person}|
+|{1676316, accident}|{1676316, passegg...|{passeggero, person}|
+|{1676339, accident}|{1676339, passegg...|{passeggero, person}|
+|{1676697, accident}|{1676697, passegg...|{passeggero, person}|
+|{1676717, accident}|{1676717, passegg...|{passeggero, person}|
+|{1677084, accident}|{1677084, passegg...|{passeggero, person}|
+|{1678017, accident}|{1678017, passegg...|{passeggero, person}|
+|{1682778, accident}|{1682778, passegg...|{passeggero, person}|
+|{1682785, accident}|{1682785, passegg...|{passeggero, person}|
+|{1693570, accident}|{1693570, passegg...|{passeggero, person}|
+|{1722048, accident}|{1722048, passegg...|{passeggero, person}|
+|{1722852, accident}|{1722852, passegg...|{passeggero, person}|
+|{1722935, accident}|{1722935, passegg...|{passeggero, person}|
+|{1723374, accident}|{1723374, passegg...|{passeggero, person}|
+|{1723962, accident}|{1723962, passegg...|{passeggero, person}|
+|{1724048, accident}|{1724048, passegg...|{passeggero, person}|
+|{1724103, accident}|{1724103, passegg...|{passeggero, person}|
+|{1725296, accident}|{1725296, passegg...|{passeggero, person}|
+|{1725710, accident}|{1725710, passegg...|{passeggero, person}|
+|{1699965, accident}|{1699965, passegg...|{passeggero, person}|
+|{1700245, accident}|{1700245, passegg...|{passeggero, person}|
+|{1701215, accident}|{1701215, passegg...|{passeggero, person}|
+|{1702230, accident}|{1702230, passegg...|{passeggero, person}|
+|{1702281, accident}|{1702281, passegg...|{passeggero, person}|
+|{1702385, accident}|{1702385, passegg...|{passeggero, person}|
+|{1703704, accident}|{1703704, passegg...|{passeggero, person}|
+|{1718947, accident}|{1718947, passegg...|{passeggero, person}|
+|{1677361, accident}|{1677361, passegg...|{passeggero, person}|
+|{1677513, accident}|{1677513, passegg...|{passeggero, person}|
+|{1677557, accident}|{1677557, passegg...|{passeggero, person}|
+|{1678476, accident}|{1678476, passegg...|{passeggero, person}|
+|{1678521, accident}|{1678521, passegg...|{passeggero, person}|
+|{1678964, accident}|{1678964, passegg...|{passeggero, person}|
+|{1679401, accident}|{1679401, passegg...|{passeggero, person}|
+|{1679858, accident}|{1679858, passegg...|{passeggero, person}|
+|{1679865, accident}|{1679865, passegg...|{passeggero, person}|
+|{1680230, accident}|{1680230, passegg...|{passeggero, person}|
+|{1687846, accident}|{1687846, passegg...|{passeggero, person}|
+|{1867598, accident}|{1867598, passegg...|{passeggero, person}|
+|{1868413, accident}|{1868413, passegg...|{passeggero, person}|
+|{1868448, accident}|{1868448, passegg...|{passeggero, person}|
+|{1869127, accident}|{1869127, passegg...|{passeggero, person}|
+|{1869267, accident}|{1869267, passegg...|{passeggero, person}|
+|{1869355, accident}|{1869355, passegg...|{passeggero, person}|
+|{1869688, accident}|{1869688, passegg...|{passeggero, person}|
+|{1870389, accident}|{1870389, passegg...|{passeggero, person}|
+|{1870397, accident}|{1870397, passegg...|{passeggero, person}|
+|{1870548, accident}|{1870548, passegg...|{passeggero, person}|
+|{1870576, accident}|{1870576, passegg...|{passeggero, person}|
+|{1714699, accident}|{1714699, passegg...|{passeggero, person}|
+|{1716012, accident}|{1716012, passegg...|{passeggero, person}|
+|{1717053, accident}|{1717053, passegg...|{passeggero, person}|
+|{1717082, accident}|{1717082, passegg...|{passeggero, person}|
+|{1717450, accident}|{1717450, passegg...|{passeggero, person}|
+|{1717468, accident}|{1717468, passegg...|{passeggero, person}|
+|{1717543, accident}|{1717543, passegg...|{passeggero, person}|
+|{1718830, accident}|{1718830, passegg...|{passeggero, person}|
+|{1875043, accident}|{1875043, passegg...|{passeggero, person}|
+|{1875286, accident}|{1875286, passegg...|{passeggero, person}|
+|{1875288, accident}|{1875288, passegg...|{passeggero, person}|
+|{1875398, accident}|{1875398, passegg...|{passeggero, person}|
+|{1875404, accident}|{1875404, passegg...|{passeggero, person}|
+|{1876168, accident}|{1876168, passegg...|{passeggero, person}|
+|{1876204, accident}|{1876204, passegg...|{passeggero, person}|
+|{1876298, accident}|{1876298, passegg...|{passeggero, person}|
+|{1876512, accident}|{1876512, passegg...|{passeggero, person}|
+|{1876590, accident}|{1876590, passegg...|{passeggero, person}|
+|{1877431, accident}|{1877431, passegg...|{passeggero, person}|
+|{1877534, accident}|{1877534, passegg...|{passeggero, person}|
+|{1877617, accident}|{1877617, passegg...|{passeggero, person}|
+|{1879759, accident}|{1879759, passegg...|{passeggero, person}|
+|{1854418, accident}|{1854418, passegg...|{passeggero, person}|
+|{1855198, accident}|{1855198, passegg...|{passeggero, person}|
+|{1855527, accident}|{1855527, passegg...|{passeggero, person}|
+|{1855718, accident}|{1855718, passegg...|{passeggero, person}|
+|{1856001, accident}|{1856001, passegg...|{passeggero, person}|
+|{1857412, accident}|{1857412, passegg...|{passeggero, person}|
+|{1857520, accident}|{1857520, passegg...|{passeggero, person}|
+|{1858880, accident}|{1858880, passegg...|{passeggero, person}|
+|{1859592, accident}|{1859592, passegg...|{passeggero, person}|
+|{1860238, accident}|{1860238, passegg...|{passeggero, person}|
+|{1665642, accident}|{1665642, passegg...|{passeggero, person}|
+|{1667822, accident}|{1667822, passegg...|{passeggero, person}|
+|{1668216, accident}|{1668216, passegg...|{passeggero, person}|
+|{1668693, accident}|{1668693, passegg...|{passeggero, person}|
++-------------------+--------------------+--------------------+
+only showing top 100 rows
+
+ ----------------- AccidentTypeVehicleGraph: pagerank  -----------------
++--------------------+------------------+
+|                  id|          pagerank|
++--------------------+------------------+
+| autovettura privata| 160762.6103368363|
+|    motociclo a solo|  33848.7679511622|
+|autocarro inferio...|11572.303322216674|
+|         ciclomotore| 4819.960313129114|
+|motociclo con pas...| 4735.362469754453|
+|autovettura pubblica|3034.4074610490748|
+|    autobus di linea| 1727.992227003443|
+|autovettura di po...|1726.2462047087581|
+|autocarro superio...|1664.5457589705754|
+|      autobus urbano|1414.2978793836626|
+|          velocipede| 1328.091857579713|
+| quadriciclo leggero|1100.8026395694899|
+|    veicolo speciale|507.95914859030984|
+|   autobus turistico| 466.6825689044868|
+|      autoarticolato|453.89372139515086|
+| macchina operatrice| 316.2795958006678|
+|               altro|263.40115744619123|
+|autobus in extrau...|241.57587876259083|
+|  vettura tranviaria|220.28665955542903|
+|ciclomotore con p...|180.08219882248162|
++--------------------+------------------+
+only showing top 20 rows
+
+ ----------------- AccidentTypeVehicleGraph: degree  -----------------
++--------------------+------+
+|                  id|degree|
++--------------------+------+
+| autovettura privata|432520|
+|    motociclo a solo|119412|
+|autocarro inferio...| 43862|
+|         ciclomotore| 17303|
+|motociclo con pas...| 17254|
+|autovettura pubblica| 11571|
+|autovettura di po...|  6739|
+|    autobus di linea|  6386|
+|autocarro superio...|  6381|
+|      autobus urbano|  5240|
+|          velocipede|  4897|
+| quadriciclo leggero|  4018|
+|    veicolo speciale|  1863|
+|   autobus turistico|  1800|
+|      autoarticolato|  1715|
+| macchina operatrice|  1049|
+|               altro|   996|
+|autobus in extrau...|   945|
+|  vettura tranviaria|   767|
+|       autoambulanza|   687|
++--------------------+------+
+only showing top 20 rows
+
+ ----------------- AccidentTypeVehicleGraph: in_degree  -----------------
++--------------------+--------+
+|                  id|inDegree|
++--------------------+--------+
+| autovettura privata|  432520|
+|    motociclo a solo|  119412|
+|autocarro inferio...|   43862|
+|         ciclomotore|   17303|
+|motociclo con pas...|   17254|
+|autovettura pubblica|   11571|
+|autovettura di po...|    6739|
+|    autobus di linea|    6386|
+|autocarro superio...|    6381|
+|      autobus urbano|    5240|
+|          velocipede|    4897|
+| quadriciclo leggero|    4018|
+|    veicolo speciale|    1863|
+|   autobus turistico|    1800|
+|      autoarticolato|    1715|
+| macchina operatrice|    1049|
+|               altro|     996|
+|autobus in extrau...|     945|
+|  vettura tranviaria|     767|
+|       autoambulanza|     687|
++--------------------+--------+
+only showing top 20 rows
+
+ ----------------- AccidentTypeVehicleGraph: out_degree  -----------------
++-------+---------+
+|     id|outDegree|
++-------+---------+
+|1717733|        5|
+|1756025|        4|
+|4897013|        4|
+|1723160|        4|
+|3711096|        4|
+|4588144|        4|
+|1803995|        4|
+|1787882|        4|
+|5527719|        4|
+|1816295|        4|
+|1809053|        4|
+|4132223|        4|
+|4986338|        4|
+|5333306|        4|
+|1882564|        4|
+|1726239|        4|
+|4834263|        4|
+|1757727|        4|
+|1682014|        4|
+|4626855|        4|
++-------+---------+
+only showing top 20 rows
+
+ ----------------- AccidentTypeVehicleGraph: triangle_count  -----------------
++-------+-----+
+|     id|count|
++-------+-----+
+|1681975|    0|
+|1682099|    0|
+|1682481|    0|
+|1682487|    0|
+|1683034|    0|
+|1683266|    0|
+|1683597|    0|
+|1684000|    0|
+|1684920|    0|
+|1684995|    0|
+|1685761|    0|
+|1673763|    0|
+|1673929|    0|
+|1674147|    0|
+|1674320|    0|
+|1674324|    0|
+|1675100|    0|
+|1676375|    0|
+|1676541|    0|
+|1676689|    0|
++-------+-----+
+only showing top 20 rows
+
+ ----------------- AccidentTypeVehicleGraph: label_propagation  -----------------
++-------+-----------+
+|     id|      label|
++-------+-----------+
+|1680782| 8589935636|
+|1680881|25769804833|
+|1680906|25769804835|
+|1680920|17179870188|
+|1680986| 8589935652|
+|1681126|25769804848|
+|1681352|25769804865|
+|1681843|17179870253|
+|1681975|       1149|
+|1681989|17179870270|
+|1682080|17179870274|
+|1682081|17179870275|
+|1682099|       1161|
+|1682481|       1182|
+|1682487|       1183|
+|1682608| 8589935756|
+|1682823| 8589935770|
+|1682877|25769804971|
+|1682916|17179870343|
+|1683034|       1220|
+|1683218|25769804995|
+|1683242|      12886|
+|1683266|       1242|
+|1683302| 8589935803|
+|1683389|17179870376|
+|1683597|       1269|
+|1683669| 8589935826|
+|1683788|25769805046|
+|1684000|       1299|
+|1684890| 8589935903|
+|1684920|       1362|
+|1684995|       1369|
+|1685761|       1430|
+|1692948|17179871051|
+|1696845| 8589936730|
+|1697761|25769806033|
+|1673641|25769804314|
+|1673645|      12886|
+|1673763|        556|
+|1673929|        567|
+|1674147|        580|
+|1674274| 8589935159|
+|1674320|        589|
+|1674324|        590|
+|1674370| 8589935166|
+|1674975|25769804404|
+|1675100|        650|
+|1675347|17179869836|
+|1675380|17179869838|
+|1675411|17179869841|
+|1675526| 8589935256|
+|1676222| 8589935307|
+|1676308|25769804486|
+|1676375|        738|
+|1676541|        751|
+|1676596| 8589935337|
+|1676636| 8589935341|
+|1676689|        762|
+|1677253|25769804565|
+|1682778|17179870328|
+|1722128|17179873068|
+|1722875|25769807869|
+|1723166|       4060|
+|1723291|25769807895|
+|1723449|17179873173|
+|1723701|17179873186|
+|1723984| 8589938602|
+|1723986| 8589938603|
+|1724055| 8589938611|
+|1724095|17179873213|
+|1724103|       4110|
+|1724231| 8589938626|
+|1724317|25769807967|
+|1724319|      12886|
+|1724368| 8589938637|
+|1724397|25769807969|
+|1724606|25769807987|
+|1724707|25769807995|
+|1724747|       4155|
+|1724756|25769807999|
+|1724961|25769808017|
+|1725002|17179873265|
+|1725098|25769808029|
+|1725146|17179873284|
+|1725259| 8589938706|
+|1725305|25769808045|
+|1725367|       4201|
+|1725640|25769808073|
+|1725967| 8589938757|
+|1726477|       4276|
+|1727444|17179873454|
+|1700277|25769806223|
+|1700546|17179875400|
+|1700807| 8589937024|
+|1701204|17179871597|
+|1701414|       2535|
+|1701490|17179871626|
+|1701524|17179871630|
+|1701594| 8589937084|
+|1701717|25769806330|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentTypeVehicleGraph: strongly_connected_components  -----------------
++-------+-----------+
+|     id|  component|
++-------+-----------+
+|1680782| 8589935636|
+|1680881|25769804833|
+|1680906|25769804835|
+|1680920|17179870188|
+|1680986| 8589935652|
+|1681126|25769804848|
+|1681352|25769804865|
+|1681843|17179870253|
+|1681975|       1149|
+|1681989|17179870270|
+|1682080|17179870274|
+|1682081|17179870275|
+|1682099|       1161|
+|1682481|       1182|
+|1682487|       1183|
+|1682608| 8589935756|
+|1682823| 8589935770|
+|1682877|25769804971|
+|1682916|17179870343|
+|1683034|       1220|
+|1683218|25769804995|
+|1683242|25769804999|
+|1683266|       1242|
+|1683302| 8589935803|
+|1683389|17179870376|
+|1683597|       1269|
+|1683669| 8589935826|
+|1683788|25769805046|
+|1684000|       1299|
+|1684890| 8589935903|
+|1684920|       1362|
+|1684995|       1369|
+|1685761|       1430|
+|1692948|17179871051|
+|1696845| 8589936730|
+|1697761|25769806033|
+|1673641|25769804314|
+|1673645| 8589935117|
+|1673763|        556|
+|1673929|        567|
+|1674147|        580|
+|1674274| 8589935159|
+|1674320|        589|
+|1674324|        590|
+|1674370| 8589935166|
+|1674975|25769804404|
+|1675100|        650|
+|1675347|17179869836|
+|1675380|17179869838|
+|1675411|17179869841|
+|1675526| 8589935256|
+|1676222| 8589935307|
+|1676308|25769804486|
+|1676375|        738|
+|1676541|        751|
+|1676596| 8589935337|
+|1676636| 8589935341|
+|1676689|        762|
+|1677253|25769804565|
+|1682778|17179870328|
+|1722128|17179873068|
+|1722875|25769807869|
+|1723166|       4060|
+|1723291|25769807895|
+|1723449|17179873173|
+|1723701|17179873186|
+|1723984| 8589938602|
+|1723986| 8589938603|
+|1724055| 8589938611|
+|1724095|17179873213|
+|1724103|       4110|
+|1724231| 8589938626|
+|1724317|25769807967|
+|1724319| 8589938631|
+|1724368| 8589938637|
+|1724397|25769807969|
+|1724606|25769807987|
+|1724707|25769807995|
+|1724747|       4155|
+|1724756|25769807999|
+|1724961|25769808017|
+|1725002|17179873265|
+|1725098|25769808029|
+|1725146|17179873284|
+|1725259| 8589938706|
+|1725305|25769808045|
+|1725367|       4201|
+|1725640|25769808073|
+|1725967| 8589938757|
+|1726477|       4276|
+|1727444|17179873454|
+|1700277|25769806223|
+|1700546|       2465|
+|1700807| 8589937024|
+|1701204|17179871597|
+|1701414|       2535|
+|1701490|17179871626|
+|1701524|17179871630|
+|1701594| 8589937084|
+|1701717|25769806330|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentTypeVehicleGraph: motif_finding  -----------------
++--------------------+--------------------+--------------------+
+|                   a|                   e|                   b|
++--------------------+--------------------+--------------------+
+|{1681224, incidente}|{1681224, autovet...|{autovettura di p...|
+|{1681688, incidente}|{1681688, autobus...|{autobus urbano, ...|
+|{1683620, incidente}|{1683620, autocar...|{autocarro inferi...|
+|{1684987, incidente}|{1684987, autocar...|{autocarro inferi...|
+|{1687850, incidente}|{1687850, autocar...|{autocarro inferi...|
+|{1675809, incidente}|{1675809, autocar...|{autocarro superi...|
+|{1675909, incidente}|{1675909, autobus...|{autobus urbano, ...|
+|{1722395, incidente}|{1722395, autocar...|{autocarro superi...|
+|{1722907, incidente}|{1722907, autocar...|{autocarro inferi...|
+|{1723934, incidente}|{1723934, autovet...|{autovettura di p...|
+|{1724319, incidente}|{1724319, autocar...|{autocarro inferi...|
+|{1700951, incidente}|{1700951, autocar...|{autocarro inferi...|
+|{1701132, incidente}|{1701132, autocar...|{autocarro superi...|
+|{1702217, incidente}|{1702217, autocar...|{autocarro inferi...|
+|{1702504, incidente}|{1702504, autocar...|{autocarro inferi...|
+|{1703603, incidente}|{1703603, vettura...|{vettura tranviar...|
+|{1710708, incidente}|{1710708, autocar...|{autocarro inferi...|
+|{1680011, incidente}|{1680011, autobus...|{autobus urbano, ...|
+|{1682911, incidente}|{1682911, autovet...|{autovettura di p...|
+|{1697959, incidente}|{1697959, autobus...|{autobus urbano, ...|
+|{1867157, incidente}|{1867157, autocar...|{autocarro inferi...|
+|{1867882, incidente}|{1867882, autocar...|{autocarro inferi...|
+|{1714900, incidente}|{1714900, autovet...|{autovettura di p...|
+|{1717270, incidente}|{1717270, autocar...|{autocarro inferi...|
+|{1717618, incidente}|{1717618, autocar...|{autocarro inferi...|
+|{1717939, incidente}|{1717939, autovet...|{autovettura di p...|
+|{1720133, incidente}|{1720133, autocar...|{autocarro inferi...|
+|{1723798, incidente}|{1723798, autobus...|{autobus urbano, ...|
+|{1875512, incidente}|{1875512, autocar...|{autocarro inferi...|
+|{1854579, incidente}|{1854579, autocar...|{autocarro inferi...|
+|{1855764, incidente}|{1855764, autocar...|{autocarro inferi...|
+|{1863769, incidente}|{1863769, autocar...|{autocarro inferi...|
+|{1666638, incidente}|{1666638, autocar...|{autocarro inferi...|
+|{1667630, incidente}|{1667630, autocar...|{autocarro inferi...|
+|{1669194, incidente}|{1669194, autobus...|{autobus urbano, ...|
+|{1699906, incidente}|{1699906, autocar...|{autocarro inferi...|
+|{1706899, incidente}|{1706899, autocar...|{autocarro superi...|
+|{1706834, incidente}|{1706834, autocar...|{autocarro inferi...|
+|{1727667, incidente}|{1727667, autocar...|{autocarro inferi...|
+|{1727764, incidente}|{1727764, autocar...|{autocarro inferi...|
+|{1728601, incidente}|{1728601, autobus...|{autobus urbano, ...|
+|{1729293, incidente}|{1729293, autocar...|{autocarro inferi...|
+|{1821821, incidente}|{1821821, autovet...|{autovettura di p...|
+|{1821896, incidente}|{1821896, autocar...|{autocarro inferi...|
+|{1822305, incidente}|{1822305, autocar...|{autocarro inferi...|
+|{1707718, incidente}|{1707718, autovet...|{autovettura di p...|
+|{1709337, incidente}|{1709337, autobus...|{autobus urbano, ...|
+|{1740359, incidente}|{1740359, autocar...|{autocarro inferi...|
+|{1718881, incidente}|{1718881, autobus...|{autobus urbano, ...|
+|{1719795, incidente}|{1719795, autocar...|{autocarro superi...|
+|{1721022, incidente}|{1721022, autocar...|{autocarro inferi...|
+|{1721787, incidente}|{1721787, autocar...|{autocarro inferi...|
+|{1722022, incidente}|{1722022, autocar...|{autocarro inferi...|
+|{1672183, incidente}|{1672183, autocar...|{autocarro inferi...|
+|{1672324, incidente}|{1672324, autocar...|{autocarro superi...|
+|{1673051, incidente}|{1673051, autocar...|{autocarro inferi...|
+|{1685364, incidente}|{1685364, autocar...|{autocarro inferi...|
+|{1686827, incidente}|{1686827, autobus...|{autobus urbano, ...|
+|{1778334, incidente}|{1778334, autobus...|{autobus urbano, ...|
+|{1890838, incidente}|{1890838, autocar...|{autocarro inferi...|
+|{1891901, incidente}|{1891901, autocar...|{autocarro inferi...|
+|{1851165, incidente}|{1851165, vettura...|{vettura tranviar...|
+|{1851365, incidente}|{1851365, autovet...|{autovettura di p...|
+|{1852867, incidente}|{1852867, autoart...|{autoarticolato, ...|
+|{1757224, incidente}|{1757224, autovet...|{autovettura di p...|
+|{1758457, incidente}|{1758457, autovet...|{autovettura di p...|
+|{1824198, incidente}|{1824198, autocar...|{autocarro inferi...|
+|{1871417, incidente}|{1871417, autocar...|{autocarro inferi...|
+|{1840718, incidente}|{1840718, autocar...|{autocarro inferi...|
+|{1852293, incidente}|{1852293, autocar...|{autocarro inferi...|
+|{1689961, incidente}|{1689961, autocar...|{autocarro inferi...|
+|{1690327, incidente}|{1690327, autocar...|{autocarro inferi...|
+|{1743809, incidente}|{1743809, autobus...|{autobus urbano, ...|
+|{1744857, incidente}|{1744857, autocar...|{autocarro inferi...|
+|{1763086, incidente}|{1763086, autocar...|{autocarro inferi...|
+|{1694676, incidente}|{1694676, autocar...|{autocarro superi...|
+|{1714291, incidente}|{1714291, autocar...|{autocarro inferi...|
+|{1803649, incidente}|{1803649, autovet...|{autovettura di p...|
+|{1814595, incidente}|{1814595, autocar...|{autocarro inferi...|
+|{1814969, incidente}|{1814969, autovet...|{autovettura di p...|
+|{1815240, incidente}|{1815240, motocic...|{motociclo di pol...|
+|{1815887, incidente}|{1815887, autocar...|{autocarro inferi...|
+|{1857784, incidente}|{1857784, autocar...|{autocarro inferi...|
+|{1861316, incidente}|{1861316, autocar...|{autocarro inferi...|
+|{1785642, incidente}|{1785642, autocar...|{autocarro inferi...|
+|{1730804, incidente}|{1730804, autocar...|{autocarro superi...|
+|{1781333, incidente}|{1781333, autovet...|{autovettura di p...|
+|{1782127, incidente}|{1782127, autoart...|{autoarticolato, ...|
+|{1782454, incidente}|{1782454, autocar...|{autocarro superi...|
+|{1782521, incidente}|{1782521, autobus...|{autobus urbano, ...|
+|{1782522, incidente}|{1782522, autocar...|{autocarro inferi...|
+|{1836707, incidente}|{1836707, autobus...|{autobus urbano, ...|
+|{1817968, incidente}|{1817968, autoart...|{autoarticolato, ...|
+|{1819270, incidente}|{1819270, autocar...|{autocarro inferi...|
+|{1819611, incidente}|{1819611, autocar...|{autocarro superi...|
+|{1883459, incidente}|{1883459, autocar...|{autocarro inferi...|
+|{1892480, incidente}|{1892480, autocar...|{autocarro inferi...|
+|{1892994, incidente}|{1892994, vettura...|{vettura tranviar...|
+|{5696888, incidente}|{5696888, autocar...|{autocarro inferi...|
+|{5706978, incidente}|{5706978, autovet...|{autovettura di p...|
++--------------------+--------------------+--------------------+
+only showing top 100 rows
+
+ ----------------- AccidentRoadsGraph: pagerank  -----------------
++--------------------+------------------+
+|                  id|          pagerank|
++--------------------+------------------+
+|        via casilina| 4626.551944541163|
+|via cristoforo co...| 4625.624238487799|
+|      via prenestina| 3982.723943506452|
+|       via tiburtina| 3864.441421702525|
+|       via tuscolana| 3301.787700337176|
+|       via nomentana|2763.7181893862817|
+|viale palmiro tog...| 2577.713125686914|
+|          via cassia| 2425.105479908629|
+|       via di boccea| 2362.485321306597|
+|     via appia nuova| 2272.033981103663|
+|         via aurelia| 2189.468142354317|
+|        via ostiense|2174.1609924738204|
+|         via salaria|2143.0828396861452|
+|       via portuense|2011.3485801085378|
+|      via laurentina|1858.2770813035713|
+|       via trionfale|1659.2841328571149|
+|        via flaminia|1611.9711241355797|
+|  via della magliana| 1396.743319755263|
+|       via ardeatina|1375.4060805279041|
+|       via collatina|1272.8945616312446|
++--------------------+------------------+
+only showing top 20 rows
+
+ ----------------- AccidentRoadsGraph: degree  -----------------
++--------------------+------+
+|                  id|degree|
++--------------------+------+
+|        via casilina|  9973|
+|via cristoforo co...|  9971|
+|      via prenestina|  8585|
+|       via tiburtina|  8330|
+|       via tuscolana|  7117|
+|       via nomentana|  5957|
+|viale palmiro tog...|  5556|
+|          via cassia|  5227|
+|       via di boccea|  5092|
+|     via appia nuova|  4897|
+|         via aurelia|  4719|
+|        via ostiense|  4686|
+|         via salaria|  4619|
+|       via portuense|  4335|
+|      via laurentina|  4005|
+|       via trionfale|  3576|
+|        via flaminia|  3474|
+|  via della magliana|  3010|
+|       via ardeatina|  2964|
+|       via collatina|  2743|
++--------------------+------+
+only showing top 20 rows
+
+ ----------------- AccidentRoadsGraph: in_degree  -----------------
++--------------------+--------+
+|                  id|inDegree|
++--------------------+--------+
+|        via casilina|    9973|
+|via cristoforo co...|    9971|
+|      via prenestina|    8585|
+|       via tiburtina|    8330|
+|       via tuscolana|    7117|
+|       via nomentana|    5957|
+|viale palmiro tog...|    5556|
+|          via cassia|    5227|
+|       via di boccea|    5092|
+|     via appia nuova|    4897|
+|         via aurelia|    4719|
+|        via ostiense|    4686|
+|         via salaria|    4619|
+|       via portuense|    4335|
+|      via laurentina|    4005|
+|       via trionfale|    3576|
+|        via flaminia|    3474|
+|  via della magliana|    3010|
+|       via ardeatina|    2964|
+|       via collatina|    2743|
++--------------------+--------+
+only showing top 20 rows
+
+ ----------------- AccidentRoadsGraph: out_degree  -----------------
++-------+---------+
+|     id|outDegree|
++-------+---------+
+|5250596|        2|
+|5250595|        2|
+|1680192|        1|
+|1680096|        1|
+|1680246|        1|
+|1680163|        1|
+|1680285|        1|
+|1680238|        1|
+|1680403|        1|
+|1680251|        1|
+|1680471|        1|
+|1680287|        1|
+|1680618|        1|
+|1680499|        1|
+|1680723|        1|
+|1680557|        1|
+|1680772|        1|
+|1680710|        1|
+|1680821|        1|
+|1680844|        1|
++-------+---------+
+only showing top 20 rows
+
+ ----------------- AccidentRoadsGraph: triangle_count  -----------------
++-------+-----+
+|     id|count|
++-------+-----+
+|1681934|    0|
+|1682179|    0|
+|1682481|    0|
+|1683207|    0|
+|1683266|    0|
+|1683597|    0|
+|1683622|    0|
+|1684465|    0|
+|1684898|    0|
+|1673677|    0|
+|1673739|    0|
+|1673929|    0|
+|1674147|    0|
+|1674324|    0|
+|1675036|    0|
+|1675322|    0|
+|1676375|    0|
+|1676541|    0|
+|1677032|    0|
+|1723157|    0|
++-------+-----+
+only showing top 20 rows
+
+ ----------------- AccidentRoadsGraph: label_propagation  -----------------
++-------+-----------+
+|     id|      label|
++-------+-----------+
+|1680194| 8589935591|
+|1680920|17179870246|
+|1681009|25769804816|
+|1681115|17179870260|
+|1681195|17179869247|
+|1681292|25769804837|
+|1681737| 8589935698|
+|1681843|17179870315|
+|1681934|       1076|
+|1681989|17179870326|
+|1682080|17179870333|
+|1682081|17179870334|
+|1682159| 8589935722|
+|1682179|       1088|
+|1682450|17179870364|
+|1682481|17179876126|
+|1682694| 8589954528|
+|1682747|25769804919|
+|1682823|      33907|
+|1683199|25769804955|
+|1683207|       1164|
+|1683218|25769804959|
+|1683266|       1169|
+|1683597|       1190|
+|1683622|       1192|
+|1684458|17179870497|
+|1684465|       1244|
+|1684898|       1268|
+|1684942| 8589935924|
+|1684945|17179870528|
+|1685100|25769805091|
+|1685763|17179870588|
+|1692948|17179871105|
+|1696472|17179871352|
+|1673645| 8589935140|
+|1673677|        517|
+|1673726| 8589935146|
+|1673739|        521|
+|1673842|25769804335|
+|1673929|25769811336|
+|1674048|25769804351|
+|1674062|17179869750|
+|1674147|        548|
+|1674274| 8589935184|
+|1674309| 8589935186|
+|1674324|        558|
+|1674388|25769804377|
+|1674719| 8589935218|
+|1674975|25769804409|
+|1675036|        618|
+|1675138| 8589935246|
+|1675322|        633|
+|1675426|25769814216|
+|1675537| 8589935276|
+|1675541|25769804448|
+|1676370| 8589935326|
+|1676375|        717|
+|1676396| 8589939868|
+|1676541|        729|
+|1676596| 8589935342|
+|1677032|        754|
+|1677095|17179869961|
+|1677422|17179869986|
+|1680353|17179870199|
+|1682778|17179870386|
+|1721940| 8589938557|
+|1722128|17179873160|
+|1722290|17179873176|
+|1722519| 8589938612|
+|1723157|       4006|
+|1723199|25769824040|
+|1723252|17179873242|
+|1723268|17179873244|
+|1723291|25769807773|
+|1723364|17179873251|
+|1723411|17179873255|
+|1723555|       4037|
+|1723584| 8589948790|
+|1723996| 8589938713|
+|1724028|17179873295|
+|1724103|       4078|
+|1724156|       4084|
+|1724175|17179873309|
+|1724195|17179873314|
+|1724209| 8589938726|
+|1724231| 8589938730|
+|1724236|       4091|
+|1724317|25769838102|
+|1724319| 8589938735|
+|1724606|25769807860|
+|1724727| 8589938767|
+|1724736|       4136|
+|1724961|25769807890|
+|1725086|17179873375|
+|1725098|25769807896|
+|1725146|17179873379|
+|1725379|17179873395|
+|1725628| 8589938828|
+|1725749|25769807945|
+|1726018|17179888499|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentRoadsGraph: strongly_connected_components  -----------------
++-------+-----------+
+|     id|  component|
++-------+-----------+
+|1680194| 8589935591|
+|1680920|17179870246|
+|1681009|25769804816|
+|1681115|17179870260|
+|1681195| 8589935653|
+|1681292|25769804837|
+|1681737| 8589935698|
+|1681843|17179870315|
+|1681934|       1076|
+|1681989|17179870326|
+|1682080|17179870333|
+|1682081|17179870334|
+|1682159| 8589935722|
+|1682179|       1088|
+|1682450|17179870364|
+|1682481|       1112|
+|1682694|17179870382|
+|1682747|25769804919|
+|1682823| 8589935767|
+|1683199|25769804955|
+|1683207|       1164|
+|1683218|25769804959|
+|1683266|       1169|
+|1683597|       1190|
+|1683622|       1192|
+|1684458|17179870497|
+|1684465|       1244|
+|1684898|       1268|
+|1684942| 8589935924|
+|1684945|17179870528|
+|1685100|25769805091|
+|1685763|17179870588|
+|1692948|17179871105|
+|1696472|17179871352|
+|1673645| 8589935140|
+|1673677|        517|
+|1673726| 8589935146|
+|1673739|        521|
+|1673842|25769804335|
+|1673929|        534|
+|1674048|25769804351|
+|1674062|17179869750|
+|1674147|        548|
+|1674274| 8589935184|
+|1674309| 8589935186|
+|1674324|        558|
+|1674388|25769804377|
+|1674719| 8589935218|
+|1674975|25769804409|
+|1675036|        618|
+|1675138| 8589935246|
+|1675322|        633|
+|1675426|25769804438|
+|1675537| 8589935276|
+|1675541|25769804448|
+|1676370| 8589935326|
+|1676375|        717|
+|1676396|25769804513|
+|1676541|        729|
+|1676596| 8589935342|
+|1677032|        754|
+|1677095|17179869961|
+|1677422|17179869986|
+|1680353|17179870199|
+|1682778|17179870386|
+|1721940| 8589938557|
+|1722128|17179873160|
+|1722290|17179873176|
+|1722519| 8589938612|
+|1723157|       4006|
+|1723199| 8589938655|
+|1723252|17179873242|
+|1723268|17179873244|
+|1723291|25769807773|
+|1723364|17179873251|
+|1723411|17179873255|
+|1723555|       4037|
+|1723584| 8589938681|
+|1723996| 8589938713|
+|1724028|17179873295|
+|1724103|       4078|
+|1724156|       4084|
+|1724175|17179873309|
+|1724195|17179873314|
+|1724209| 8589938726|
+|1724231| 8589938730|
+|1724236|       4091|
+|1724317|25769807841|
+|1724319| 8589938735|
+|1724606|25769807860|
+|1724727| 8589938767|
+|1724736|       4136|
+|1724961|25769807890|
+|1725086|17179873375|
+|1725098|25769807896|
+|1725146|17179873379|
+|1725379|17179873395|
+|1725628| 8589938828|
+|1725749|25769807945|
+|1726018|       4229|
++-------+-----------+
+only showing top 100 rows
+
+ ----------------- AccidentRoadsGraph: motif_finding  -----------------
++--------------------+--------------------+--------------------+
+|                   a|                   e|                   b|
++--------------------+--------------------+--------------------+
+|{1681351, incidente}|{1681351, via cas...|{via cassia nuova...|
+|{1681592, incidente}|{1681592, via del...|{via della maglia...|
+|{1681748, incidente}|{1681748, via del...|{via della giusti...|
+|{1681793, incidente}|{1681793, via ant...|{via antonio paci...|
+|{1682117, incidente}|{1682117, via ema...|{via emanuele fil...|
+|{1682338, incidente}|{1682338, via del...|{via della maglia...|
+|{1682528, incidente}|{1682528, via cav...|{via cavour, strada}|
+|{1682549, incidente}|{1682549, via pin...|{via pinciana, st...|
+|{1682835, incidente}|{1682835, via art...|{via arturo graf,...|
+|{1683461, incidente}|{1683461, viale d...|{viale dell'aeron...|
+|{1683938, incidente}|{1683938, via di ...|{via di boccea, s...|
+|{1689070, incidente}|{1689070, via di ...|{via di boccea, s...|
+|{1690725, incidente}|{1690725, piazza ...|{piazza di villa ...|
+|{1673895, incidente}|{1673895, via cas...|{via cassia, strada}|
+|{1674074, incidente}|{1674074, via sal...|{via salaria, str...|
+|{1674411, incidente}|{1674411, via cel...|{via celio vibenn...|
+|{1674493, incidente}|{1674493, via lau...|{via laurentina, ...|
+|{1675366, incidente}|{1675366, piazza ...|{piazza tarquinia...|
+|{1675696, incidente}|{1675696, via cas...|{via cassia, strada}|
+|{1675743, incidente}|{1675743, via ces...|{via cesare baron...|
+|{1676396, incidente}|{1676396, via del...|{via del foro ita...|
+|{1676521, incidente}|{1676521, via cam...|{via camillo pilo...|
+|{1676605, incidente}|{1676605, via por...|{via portuense, s...|
+|{1679500, incidente}|{1679500, via dei...|{via dei monti ti...|
+|{1681469, incidente}|{1681469, via mat...|{via mattia batti...|
+|{1722203, incidente}|{1722203, via del...|{via della maglia...|
+|{1722940, incidente}|{1722940, piazza ...|{piazza asti, str...|
+|{1722986, incidente}|{1722986, via del...|{via del foro ita...|
+|{1722989, incidente}|{1722989, via del...|{via della giusti...|
+|{1723176, incidente}|{1723176, via lau...|{via laurentina, ...|
+|{1723197, incidente}|{1723197, via di ...|{via di boccea, s...|
+|{1723629, incidente}|{1723629, via fla...|{via flaminia, st...|
+|{1723651, incidente}|{1723651, via fil...|{via filippo parl...|
+|{1724815, incidente}|{1724815, viale d...|{viale dei romagn...|
+|{1724871, incidente}|{1724871, via cor...|{via cortona, str...|
+|{1734816, incidente}|{1734816, viale p...|{viale palmiro to...|
+|{1700111, incidente}|{1700111, via dei...|{via dei monti ti...|
+|{1700278, incidente}|{1700278, via del...|{via dell'usignol...|
+|{1700545, incidente}|{1700545, via lat...|{via latina, strada}|
+|{1700797, incidente}|{1700797, viale p...|{viale pinturicch...|
+|{1701033, incidente}|{1701033, viale s...|{viale somalia, s...|
+|{1701248, incidente}|{1701248, via dei...|{via dei ciclamin...|
+|{1702013, incidente}|{1702013, via fla...|{via flaminia, st...|
+|{1702834, incidente}|{1702834, viale d...|{viale della sere...|
+|{1710706, incidente}|{1710706, via di ...|{via di boccea, s...|
+|{1678097, incidente}|{1678097, via cas...|{via cassia, strada}|
+|{1678353, incidente}|{1678353, via sal...|{via salaria, str...|
+|{1678993, incidente}|{1678993, via gio...|{via giorgio pall...|
+|{1679124, incidente}|{1679124, via di ...|{via di mezzocamm...|
+|{1679259, incidente}|{1679259, viale p...|{viale palmiro to...|
+|{1679292, incidente}|{1679292, via app...|{via appia nuova,...|
+|{1679599, incidente}|{1679599, via ana...|{via anagnina, st...|
+|{1680792, incidente}|{1680792, via vag...|{via vaglia, strada}|
+|{1689649, incidente}|{1689649, via app...|{via appia nuova,...|
+|{1867311, incidente}|{1867311, via pol...|{via polense, str...|
+|{1867588, incidente}|{1867588, circonv...|{circonvallazione...|
+|{1867589, incidente}|{1867589, via di ...|{via di ponte rot...|
+|{1868352, incidente}|{1868352, viale p...|{viale pretoriano...|
+|{1868421, incidente}|{1868421, piazza ...|{piazza tolosetto...|
+|{1870000, incidente}|{1870000, via fil...|{via filippo marc...|
+|{1870263, incidente}|{1870263, viale j...|{viale jonio, str...|
+|{1870554, incidente}|{1870554, via app...|{via appia nuova,...|
+|{1873845, incidente}|{1873845, via dei...|{via dei monti ti...|
+|{1716415, incidente}|{1716415, via uld...|{via ulderico maz...|
+|{1716489, incidente}|{1716489, via del...|{via della valle ...|
+|{1717417, incidente}|{1717417, viale s...|{viale somalia, s...|
+|{1717612, incidente}|{1717612, corso d...|{corso d'italia, ...|
+|{1718101, incidente}|{1718101, piazzal...|{piazzale brasile...|
+|{1718243, incidente}|{1718243, via lau...|{via laurentina, ...|
+|{1874322, incidente}|{1874322, piazzal...|{piazzale clodio,...|
+|{1874710, incidente}|{1874710, via ang...|{via angelo berar...|
+|{1874929, incidente}|{1874929, via ale...|{via alessio asca...|
+|{1875224, incidente}|{1875224, via lau...|{via laurentina, ...|
+|{1875316, incidente}|{1875316, via por...|{via portuense, s...|
+|{1875659, incidente}|{1875659, via di ...|{via di rocca cen...|
+|{1876341, incidente}|{1876341, via ran...|{via ranuccio bia...|
+|{1877493, incidente}|{1877493, via di ...|{via di boccea, s...|
+|{1854693, incidente}|{1854693, via del...|{via del pescacci...|
+|{1854937, incidente}|{1854937, via pie...|{via pietro de co...|
+|{1855929, incidente}|{1855929, via cas...|{via cassia, strada}|
+|{1856460, incidente}|{1856460, via gio...|{via giovanni gio...|
+|{1857054, incidente}|{1857054, largo s...|{largo sergio pug...|
+|{1857073, incidente}|{1857073, via deg...|{via degli opimia...|
+|{1857291, incidente}|{1857291, viale p...|{viale palmiro to...|
+|{1857367, incidente}|{1857367, via man...|{via manuel de fa...|
+|{1665437, incidente}|{1665437, viale d...|{viale delle term...|
+|{1667612, incidente}|{1667612, via mon...|{via monte rocche...|
+|{1668167, incidente}|{1668167, piazza ...|{piazza enrico ba...|
+|{1668204, incidente}|{1668204, viale d...|{viale dei romagn...|
+|{1668472, incidente}|{1668472, via lui...|{via luigi arbib ...|
+|{1668488, incidente}|{1668488, via vin...|{via vincenzo tom...|
+|{1671476, incidente}|{1671476, lungote...|{lungotevere dei ...|
+|{1696674, incidente}|{1696674, via fra...|{via francesco to...|
+|{1696680, incidente}|{1696680, via dav...|{via davide campa...|
+|{1697871, incidente}|{1697871, viale d...|{viale delle bell...|
+|{1698517, incidente}|{1698517, viale j...|{viale jonio, str...|
+|{1699165, incidente}|{1699165, via mer...|{via merulana, st...|
+|{1699711, incidente}|{1699711, via dei...|{via dei campi sp...|
+|{1700044, incidente}|{1700044, via ema...|{via emanuele fil...|
+|{1702550, incidente}|{1702550, viale d...|{viale delle mili...|
++--------------------+--------------------+--------------------+
+only showing top 100 rows
+
+
