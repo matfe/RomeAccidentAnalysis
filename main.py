@@ -82,8 +82,8 @@ def main():
     # Analizza il grafo delle strade con incidenti.
     GraphAnalysis.analyze(accidentRoadsGraph, nameAccidentRoadsGraph, sampleForAdvancedAnalysis=True)
 
-    # Chiudi la sessione Spark
-    sparkSession.close_session()
+    # Arresta la sessione Spark
+    sparkSession.stop()
 
 if __name__ == '__main__':
     main()
