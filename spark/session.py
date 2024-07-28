@@ -34,6 +34,3 @@ class SparkSessionBuilder:
 
     def get_or_create(self):
         return self.builder.getOrCreate()
-
-    def close_session(self):
-        self.builder.close()
