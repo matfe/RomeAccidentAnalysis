@@ -35,7 +35,7 @@ Ogni dataset include gli incidenti stradali avvenuti nel territorio di Roma Capi
 
 ### Documentazione del Progetto
 
-Nella cartella `docs` è presente tutta la documentazione del progetto. Qui troverai i risultati restituiti dall'applicazione, come stampe della console, grafici e altro. Per scaricare la presentazione del progetto, usa [questo link](docs/report/RomeAccidentAnalysisPresentation.pptx).
+Nella cartella `docs` è presente tutta la documentazione del progetto. Qui troverai i risultati restituiti dall'applicazione, come stampe della console, grafici e altro. Per scaricare la presentazione del progetto, usa [questo link](docs/report/RomeAccidentAnalysisPresentation.pdf).
 
 ## Licenza
 
