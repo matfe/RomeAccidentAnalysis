@@ -7,7 +7,7 @@ from util import ConfigLoader
 
 class SchemaBuilder:
     """
-    Classe per creare e gestisce lo schema configurato
+    Classe per creare e gestire lo schema configurato
     """
     def build_schema(self,  schema_config_path = "./config/schema.json"):
         """
